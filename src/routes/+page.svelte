@@ -1,5 +1,21 @@
 <script>
   import HomeNav from "../lib/HomeNav.svelte";
+  import { onMount } from "svelte";
+  let portfolioComponent;
+
+  // Function to apply transformation when the portfolio component is hovered
+  function handleMouseEnter() {
+    portfolioComponent.style.transform = "translateX(-15vw)";
+  }
+
+  function handleMouseLeave() {
+    portfolioComponent.style.transform = "translateX(15vw)";
+  }
+
+  onMount(() => {
+    // Set initial position of the portfolio list wrapper, if necessary
+    portfolioComponent.style.transform = "translateX(15vw)";
+  });
 </script>
 
 <svelte:head>
@@ -24,8 +40,43 @@
     rel="preconnect"
     crossorigin="anonymous"
   />
-
 </svelte:head>
+
+<style>
+  .portfolio_component {
+    transition: transform 8000ms ease-out; /* Animation settings */
+  }
+  /* Ensure .portfolio_list-wrapper is styled as needed, but the animation is now on .portfolio_component */
+    .portfolio_item {
+    transition: transform 300ms ease-out;
+    transform: translateY(0); /* Initial state */
+  }
+
+  /* On hover, moves the portfolio item up */
+  .portfolio_item:hover {
+    transform: translateY(-10px); /* Adjust as needed for the desired "up" effect */
+  }
+
+  /* Initially hides the button */
+  .portfolio_item .button.is-portfolio {
+    opacity: 0;
+    transition: opacity 300ms ease-out; /* Smooth transition for the button appearance */
+    transform: translateY(20px); /* Starts a bit lower to enhance the appearance effect */
+  }
+
+  /* Shows the button when the portfolio item is hovered */
+  .portfolio_item:hover .button.is-portfolio {
+    opacity: 1;
+    transform: translateY(0); /* Moves the button to its final position */
+  }
+</style>
+
+<!-- <style>
+  .portfolio_list-wrapper {
+    transition: transform 1000ms ease-out;
+    transform: translateX(15vw); /* Initial state */
+  }
+</style> -->
 
 <div class="page-wrapper">
   <HomeNav />
@@ -468,6 +519,10 @@
             <div
               data-w-id="f0ed4de9-f03f-c224-4d94-de8f5fd55228"
               class="portfolio_component"
+              bind:this={portfolioComponent}
+              on:mouseenter={handleMouseEnter}
+              on:mouseleave={handleMouseLeave}
+              role="list"
             >
               <div class="portfolio_list-wrapper">
                 <div class="w-layout-grid portfolio_list">
@@ -3090,17 +3145,3 @@
   </footer>
 </div>
 
-      <!-- <style>
-      html.lenis {
-        height: auto;
-      }
-      .lenis.lenis-smooth {
-        scroll-behavior: auto;
-      }
-      .lenis.lenis-smooth [data-lenis-prevent] {
-        overscroll-behavior: contain;
-      }
-      .lenis.lenis-stopped {
-        overflow: hidden;
-      }
-    </style> -->
