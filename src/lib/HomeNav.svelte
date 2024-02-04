@@ -1,3 +1,41 @@
+<script>
+  import { onMount } from "svelte";
+  let navbarStyle = "width: 30rem; overflow: hidden;"; // Default style
+  let menuButtonOpacity = 0;
+
+  function updateNavbar() {
+    const st = window.scrollY; // Updated from window.pageYOffset to window.scrollY
+    const width = document.body.offsetWidth;
+    if (width > 991) {
+      const isScrollingUp = st < lastScrollTop;
+      const condition = isScrollingUp ? 500 : 100;
+      if (window.scrollY > condition) {
+        // Updated here as well
+        navbarStyle = "width: 39rem; overflow: visible;";
+        menuButtonOpacity = 1;
+      } else {
+        navbarStyle = "width: 30rem; overflow: hidden;";
+        menuButtonOpacity = 0;
+      }
+      lastScrollTop = st <= 0 ? 0 : st; // Prevent negative scroll values
+    }
+  }
+
+  let lastScrollTop = 0;
+  onMount(() => {
+    window.addEventListener("scroll", updateNavbar);
+    // return () => {
+    //   window.removeEventListener('scroll', updateNavbar);
+    // };
+  });
+
+  let showIcon = false; // Controls the state of the icon
+
+  function toggleIcon() {
+    showIcon = !showIcon; // Toggle the icon state on hover
+  }
+</script>
+
 <svelte:head>
   <link
     href="css/agency-landing-page-a76d1e.webflow.css"
@@ -24,6 +62,8 @@
   data-no-scroll="1"
   data-duration="400"
   bind="2503f5d2-c0e0-792d-68fc-322d2b056fec"
+      on:mouseenter={toggleIcon}
+  on:mouseleave={toggleIcon}
 >
   <div class="navbar_container">
     <a
@@ -49,16 +89,7 @@
           class="navbar_logo is-icon"
           src="images/webclip.png"
           alt=""
-          style="
-                  -webkit-transform: translate3d(0, -110%, 0) scale3d(1, 1, 1)
-                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                  -moz-transform: translate3d(0, -110%, 0) scale3d(1, 1, 1)
-                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                  -ms-transform: translate3d(0, -110%, 0) scale3d(1, 1, 1)
-                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                  transform: translate3d(0, -110%, 0) scale3d(1, 1, 1)
-                    rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-                "
+           style="transform: translateY({showIcon ? 0 : '-110%'});"
           sizes="(max-width: 479px) 71vw, 64px"
           loading="eager"
           srcset="images/webclip-p-500.png 500w, images/webclip.png 600w"
@@ -104,3 +135,14 @@
     </div>
   </div>
 </div>
+
+<style>
+  .is-icon {
+    display: inline-block;
+    transform: translateY(-110%);
+    transition: transform 500ms ease; /* Precisely 300ms */
+  }
+  .navbar_component:hover .is-icon {
+    transform: translateY(0);
+  }
+</style>

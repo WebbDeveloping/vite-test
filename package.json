@@ -17,6 +17,8 @@
   },
   "type": "module",
   "dependencies": {
-    "@sveltejs/adapter-node": "^4.0.1"
+    "@studio-freight/lenis": "^1.0.34",
+    "@sveltejs/adapter-node": "^4.0.1",
+    "moment": "^2.30.1"
   }
 }
