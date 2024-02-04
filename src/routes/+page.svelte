@@ -1,0 +1,3295 @@
+<script>
+  import HomeNav from "../lib/HomeNav.svelte";
+</script>
+
+<svelte:head>
+  <title>Home</title>
+  <meta name="description" content="Svelte demo app" />
+  <meta content="" property="twitter:description" />
+  <meta content="" property="twitter:image" />
+  <meta property="og:type" content="website" />
+  <meta content="summary_large_image" name="twitter:card" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="Webflow" name="generator" />
+  <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+  <link href="css/webflow.css" rel="stylesheet" type="text/css" />
+  <link
+    href="css/agency-landing-page-a76d1e.webflow.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link
+    href="https://fonts.gstatic.com"
+    rel="preconnect"
+    crossorigin="anonymous"
+  />
+</svelte:head>
+
+<div class="page-wrapper">
+  <HomeNav />
+  <div class="main-wrapper">
+    <header class="section_header">
+      <div class="padding-global">
+        <div class="container-small">
+          <div class="header-100svh">
+            <div class="padding-section-large is-header">
+              <div class="text-align-center">
+                <div class="margin-bottom margin-small">
+                  <div class="header_title-wrapper hide">
+                    <h1 class="header_title">Connecting</h1>
+                    <img
+                      src="images/ghl-icon.jpeg"
+                      loading="eager"
+                      sizes="100vw"
+                      srcset="
+                            images/ghl-icon-p-500.jpeg 500w,
+                            images/ghl-icon.jpeg       512w
+                          "
+                      alt=""
+                      class="header_logo ghl-icon"
+                    />
+                    <h1 class="header_title">and</h1>
+                    <img
+                      src="images/62d0e2ae81fb9e49432d0284_62736cc4162e557f6f79f7d0_Webflow_Logo.svg"
+                      loading="eager"
+                      alt=""
+                      class="header_logo"
+                    />
+                    <h1 class="header_title">
+                      to elevate your online presence
+                    </h1>
+                  </div>
+                  <div class="header_title-wrapper">
+                    <h1 class="header_title">
+                      Transforming Brands with
+                      <span class="text-span">Elegant Designs</span> and
+                      Effortless
+                      <span class="text-span">Marketing Automations</span>
+                    </h1>
+                  </div>
+                </div>
+                <p class="text-size-medium">
+                  My goal is to elevate your digital presence with standout
+                  designs and strategic marketing automation for significant
+                  growth.<a
+                    href="https://agency-landing-page-91626841e1e5.herokuapp.com/"
+                    ><strong><br /></strong></a
+                  >
+                </p>
+                <div class="margin-top margin-medium">
+                  <div class="button-group is-center">
+                    <a href="/landing" class="button is-icon w-inline-block">
+                      <div class="button_text-regular">Work with me</div>
+                      <div
+                        bind="0970dca1-6827-27ab-5b49-462135c8b06c"
+                        class="icon-1x1-small w-embed"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="100%"
+                          height="100%"
+                          viewbox="0 0 17 17"
+                          fill="none"
+                          preserveaspectratio="xMidYMid meet"
+                          aria-hidden="true"
+                          role="img"
+                        >
+                          <g clip-path="url(#clip0_614_964)">
+                            <path
+                              d="M3 8.5L14 8.5"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M9.5 13L14 8.5L9.5 4"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                          </g>
+                          <defs>
+                            <clippath id="clip0_614_964">
+                              <rect
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                transform="translate(0.5 16.5) rotate(-90)"
+                              ></rect>
+                            </clippath>
+                          </defs>
+                        </svg>
+                      </div>
+                    </a>
+                    <a
+                      href="#work"
+                      class="button is-icon is-alternate w-inline-block"
+                    >
+                      <div class="button_text-regular">Recent Work</div>
+                      <div
+                        bind="beae6d6d-8bec-b376-41e0-7dada942a929"
+                        class="icon-1x1-small w-embed"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="100%"
+                          height="100%"
+                          viewbox="0 0 17 17"
+                          fill="none"
+                          preserveaspectratio="xMidYMid meet"
+                          aria-hidden="true"
+                          role="img"
+                        >
+                          <g clip-path="url(#clip0_614_972)">
+                            <path
+                              d="M8.5 3L8.5 14"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M4 9.5L8.5 14L13 9.5"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                          </g>
+                          <defs>
+                            <clippath id="clip0_614_972">
+                              <rect
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                transform="translate(0.5 0.5)"
+                              ></rect>
+                            </clippath>
+                          </defs>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="margin-top margin-medium">
+                  <div class="button-group is-center is-testimonial">
+                    <div class="header_testimonail-wrapper">
+                      <a
+                        href="https://sunology.eu/"
+                        target="_blank"
+                        class="header_testimonail-link w-inline-block"
+                        ><img
+                          src="images/Rectangle-105_1Rectangle-105.webp"
+                          loading="eager"
+                          alt="Client headshot"
+                          class="header_testimonial-image"
+                        /></a
+                      >
+                      <a
+                        href="https://heymara.com/"
+                        target="_blank"
+                        class="header_testimonail-link w-inline-block"
+                        ><img
+                          src="images/Rectangle-104_1Rectangle-104.webp"
+                          loading="eager"
+                          alt="Client headshot"
+                          class="header_testimonial-image"
+                        /></a
+                      >
+                      <a
+                        href="https://www.5fourdigital.com/"
+                        target="_blank"
+                        class="header_testimonail-link w-inline-block"
+                        ><img
+                          src="images/Rectangle-106_1Rectangle-106.webp"
+                          loading="eager"
+                          alt="Client headshot"
+                          class="header_testimonial-image"
+                        /></a
+                      >
+                    </div>
+                    <div class="header_testimonial-content">
+                      <div class="text-size-regular">
+                        <span>250+</span> successful projects.
+                      </div>
+                      <a
+                        href="#testimonial"
+                        class="button read-testimonial w-inline-block"
+                      >
+                        <div class="button_text-small">Read testimonials</div>
+                        <div
+                          bind="6fa3fcef-0908-deab-7b88-8cf26be5f838"
+                          class="icon-1x1-xsmall w-embed"
+                        >
+                          <svg
+                            width="12px"
+                            height="12px"
+                            viewbox="0 0 8 8"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M3 1.5L5.5 4L3 6.5"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                          </svg>
+                        </div>
+                      </a><img
+                        src="images/62d0e2aeb4e06c8b6b8249a4_62736cc4162e55368179f7d1_f2w__pfeil.svg"
+                        loading="lazy"
+                        alt=""
+                        class="header_testimonial-arrow"
+                      />
+                      <div
+                        bind="1d239422-9815-6a6b-0baf-49fcadc4d1f7"
+                        class="header_testimonial-arrow-text w-embed"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="100%"
+                          height="100%"
+                          viewbox="0 0 196 50"
+                          fill="none"
+                          preserveaspectratio="xMidYMid meet"
+                          aria-hidden="true"
+                          role="img"
+                        >
+                          <path
+                            d="M26.043 34.75V35C25.843 35.3333 25.5596 35.5 25.193 35.5C24.7263 35.5 24.4263 35.4166 24.293 35.25C24.0263 33.8833 21.7763 31.7166 17.543 28.75C13.3096 25.75 10.443 24.25 8.94296 24.25C7.04296 24.25 6.09297 24.25 6.09297 24.25V27.3499C6.09297 27.7833 6.20963 28.7833 6.44296 30.3499C6.64296 32.0166 6.80963 32.9333 6.94296 33.0999C7.50963 33.9999 7.79297 34.4166 7.79297 34.3499C7.79297 35.1166 7.35963 35.5 6.49297 35.5C5.5263 35.5 4.79297 35.15 4.29297 34.45C3.79297 33.75 3.54297 30.4833 3.54297 24.65C3.54297 24.1833 2.95964 23.7666 1.79297 23.4C0.626302 23.0333 0.0429688 22.6 0.0429688 22.1C0.0429688 21.3666 1.10963 20.7 3.24297 20.1C3.4763 18.9 3.6263 17.3 3.69296 15.3C3.8263 12.8 3.9263 11.1833 3.99297 10.45C4.0263 10.0833 4.1763 9.08328 4.44296 7.44995C4.6763 6.21662 4.7763 5.19995 4.74297 4.39995C4.5763 4.29995 4.12631 4.24995 3.39297 4.24995C2.69297 4.24995 2.34297 3.96662 2.34297 3.39995C2.34297 2.69995 2.67631 2.26662 3.34297 2.09995C3.80964 1.96662 4.29297 1.83328 4.79297 1.69995C4.89297 1.36662 5.10963 0.999952 5.44296 0.599952C5.74296 0.499952 6.00963 0.449951 6.24297 0.449951C6.60963 0.449951 6.97631 0.633285 7.34297 0.999952C7.74297 1.36662 8.09297 1.54995 8.39297 1.54995C8.55964 1.54995 8.79297 1.53328 9.09297 1.49995C9.39297 1.43328 9.6263 1.39995 9.79297 1.39995C13.493 1.39995 16.6096 2.16662 19.143 3.69995C22.243 5.49995 23.793 8.13328 23.793 11.6C23.793 14.4666 22.943 16.8 21.243 18.6C20.1763 19.7666 18.1096 21.1833 15.043 22.85C14.843 22.8833 14.6096 22.9666 14.343 23.1C15.0096 23.7333 16.5096 24.8166 18.843 26.3499C21.1763 27.8833 22.843 29.1333 23.843 30.0999C25.3763 31.6333 26.1096 33.1833 26.043 34.75ZM21.193 11.4C21.193 8.86662 20.043 6.91662 17.743 5.54995C15.843 4.41662 13.543 3.84995 10.843 3.84995C9.8763 3.84995 9.0763 3.91662 8.44296 4.04995L7.79297 5.04995C7.3263 5.81662 7.05963 6.83328 6.99297 8.09995C6.9263 9.93328 6.85964 11.0166 6.79297 11.35C6.39297 13.25 6.1263 16.2666 5.99297 20.4C8.45963 21.3333 9.99297 21.8 10.593 21.8C11.0596 21.8 11.7263 21.6666 12.593 21.4C15.0596 20.6666 17.0596 19.45 18.593 17.75C20.3263 15.9166 21.193 13.8 21.193 11.4Z"
+                            fill="currentColor"
+                          ></path>
+                          <path
+                            d="M41.8883 30.0499C41.8883 31.5166 40.905 32.8333 38.9383 34C37.1716 35.0666 35.505 35.5999 33.9383 35.5999C29.4716 35.5999 27.2383 32.7666 27.2383 27.0999C27.2383 24.5999 27.6883 21.9166 28.5883 19.05C29.7883 15.3166 31.3216 13.45 33.1883 13.45C34.7883 13.45 36.5383 14.2666 38.4383 15.9C40.3383 17.5 41.2883 19.1 41.2883 20.7C41.2883 22.7666 40.4549 24.5666 38.7883 26.0999C37.1216 27.6333 35.2383 28.4 33.1383 28.4C32.9383 28.4 32.505 28.2333 31.8383 27.9C31.205 27.5666 30.7716 27.4 30.5383 27.4C30.1049 27.4 29.8883 27.5333 29.8883 27.7999C29.8883 31.6333 31.155 33.5499 33.6883 33.5499C34.9883 33.5499 36.1883 33.1166 37.2883 32.25C37.9549 31.75 38.6883 30.9666 39.4883 29.9C40.1216 29.0666 40.5383 28.65 40.7383 28.65C41.5049 28.65 41.8883 29.1166 41.8883 30.0499ZM38.4383 20.85C38.4383 19.6833 38.105 18.6 37.4383 17.6C36.7716 16.5666 35.8883 16.0499 34.7883 16.0499C33.4549 16.0499 32.3716 16.8833 31.5383 18.5499C30.8383 19.9499 30.4883 21.4 30.4883 22.9C30.4883 23.8666 30.7883 24.6833 31.3883 25.35C32.0216 25.9833 32.8216 26.2999 33.7883 26.2999C35.1549 26.2999 36.2883 25.7166 37.1883 24.55C38.0216 23.4833 38.4383 22.25 38.4383 20.85Z"
+                            fill="currentColor"
+                          ></path>
+                          <path
+                            d="M59.3117 36.45C59.3117 36.9166 58.9451 37.15 58.2117 37.15C57.4117 37.15 56.9284 36.8166 56.7617 36.15C56.7284 36.05 56.7117 35.4 56.7117 34.2C56.7117 33.8666 56.6617 33.6 56.5617 33.4C54.695 34.7666 52.6784 35.45 50.5117 35.45C49.0117 35.45 47.5617 35.0333 46.1617 34.2C44.5617 33.2666 43.7617 32.1 43.7617 30.7C43.7617 29.3333 44.7117 28 46.6117 26.7C48.3451 25.5 49.945 24.9 51.4117 24.9H56.3617C56.5617 24.7 56.6617 24.35 56.6617 23.85C56.6617 21.6166 56.4784 19.9333 56.1117 18.7999C55.5117 16.8999 54.3284 15.95 52.5617 15.95C51.295 15.95 50.1284 16.75 49.0617 18.35C48.095 19.8166 47.6117 21.2166 47.6117 22.5499C47.6117 22.6166 47.6117 22.7166 47.6117 22.85C47.6117 22.9833 47.6117 23.0666 47.6117 23.1C47.6117 23.3666 47.4784 23.5 47.2117 23.5C46.8784 23.5 46.5117 23.3 46.1117 22.9C45.7117 22.5 45.5117 22.15 45.5117 21.85C45.5117 20.9166 45.7951 19.75 46.3617 18.35C46.9284 16.9166 47.5451 15.8333 48.2117 15.1C49.0451 14.2 50.0784 13.75 51.3117 13.75C53.2117 13.75 54.9617 14.35 56.5617 15.55C58.2617 16.85 59.1284 18.4166 59.1617 20.25L59.3117 36.45ZM56.6617 28.5C56.6617 27.1666 55.6284 26.5 53.5617 26.5C51.9284 26.5 50.4951 26.7833 49.2617 27.3499C47.6951 28.0833 46.9117 29.1833 46.9117 30.65C46.9117 31.55 47.3284 32.25 48.1617 32.75C48.8617 33.1833 49.695 33.4 50.6617 33.4C52.095 33.4 53.4451 32.9333 54.7117 32C56.0117 31.0666 56.6617 29.9 56.6617 28.5Z"
+                            fill="currentColor"
+                          ></path>
+                          <path
+                            d="M66.5633 34.5C66.5633 35.3666 66.0966 35.7999 65.1633 35.7999C63.6966 35.7999 62.9799 32.7833 63.0133 26.75L63.1633 4.29995C63.1633 3.93328 63.1133 3.41662 63.0133 2.74995C62.9133 2.04995 62.8633 1.53328 62.8633 1.19995C63.4966 0.733285 64.03 0.499952 64.4633 0.499952C64.93 0.499952 65.3966 0.666619 65.8633 0.999952C66.3299 1.33328 66.5633 1.73328 66.5633 2.19995C66.5633 2.53328 66.48 2.96662 66.3133 3.49995C66.1133 4.16662 65.9966 4.58329 65.9633 4.74995C65.5633 7.01662 65.3633 10.1833 65.3633 14.25C65.3633 20.8166 65.3466 23.9833 65.3133 23.75C65.4133 27.85 65.6799 30.9333 66.1133 33C66.1133 33.1 66.18 33.3333 66.3133 33.7C66.48 34.0333 66.5633 34.3 66.5633 34.5Z"
+                            fill="currentColor"
+                          ></path>
+                          <path
+                            d="M94.6211 22.75C94.6211 26.05 94.1377 28.8166 93.1711 31.0499C91.8711 34.1499 89.8211 35.7 87.0211 35.7C85.1878 35.7 83.5878 34.85 82.2211 33.15C81.9878 33.25 81.8711 34.2833 81.8711 36.25C81.8711 40.5833 82.0878 43.65 82.5211 45.45C82.5544 45.6166 82.7044 46.0166 82.9711 46.65C83.2711 47.2833 83.4211 47.6666 83.4211 47.7999C83.4211 48.3333 83.0877 48.5999 82.4211 48.5999C81.6211 48.5999 81.0544 48.4833 80.7211 48.25C80.4211 48.0166 80.1544 47.25 79.9211 45.95C79.7211 44.85 79.6211 43.9833 79.6211 43.3499V30.65C79.6211 29.4833 79.6878 27.9166 79.8211 25.95C79.9544 23.65 80.0378 22.0833 80.0711 21.25C80.1044 20.35 80.1044 19.1833 80.0711 17.75C80.0378 15.9166 80.0211 14.7333 80.0211 14.2C80.0211 11.9 80.6211 10.75 81.8211 10.75C82.4211 10.75 82.7211 10.9666 82.7211 11.4C82.7211 12.2333 82.6544 13.45 82.5211 15.0499C82.3878 16.6499 82.3211 17.85 82.3211 18.65H82.5211C83.2878 17.6166 84.0544 16.5666 84.8211 15.5C85.7211 14.3333 86.8377 13.75 88.1711 13.75C90.4044 13.75 92.0878 14.7499 93.2211 16.75C94.1544 18.35 94.6211 20.35 94.6211 22.75ZM92.1711 22.95C92.1711 21.1833 91.9878 19.6666 91.6211 18.4C91.0544 16.5333 90.1378 15.6 88.8711 15.6C87.9378 15.6 86.8044 16.4166 85.4711 18.05C84.3044 19.4833 83.4878 20.95 83.0211 22.45C82.6544 23.5833 82.3544 25.25 82.1211 27.45C81.9544 29.05 81.8711 29.8166 81.8711 29.75C81.8711 29.85 82.0211 30.0166 82.3211 30.25C82.5211 30.3833 82.7211 30.5333 82.9211 30.7C83.4544 31.4666 83.9878 32.2499 84.5211 33.0499C85.0878 33.8166 85.9211 34.2 87.0211 34.2C88.8544 34.2 90.2377 32.7 91.1711 29.7C91.8377 27.5666 92.1711 25.3166 92.1711 22.95Z"
+                            fill="currentColor"
+                          ></path>
+                          <path
+                            d="M108.221 17.2C108.221 17.3333 108.204 17.6166 108.171 18.05C107.738 18.7166 107.321 19.05 106.921 19.05C106.654 19.05 106.421 18.8833 106.221 18.5499C106.121 16.4499 105.254 15.4 103.621 15.4C102.554 15.4 101.504 17.3666 100.471 21.2999C100.071 22.7333 99.8711 24.6499 99.8711 27.0499C99.8711 30.1166 99.9544 32 100.121 32.7C100.154 32.8 100.238 33.0166 100.371 33.3499C100.504 33.6499 100.571 33.8833 100.571 34.0499C100.571 34.7833 100.071 35.15 99.0711 35.15C97.9378 35.15 97.3711 34.5666 97.3711 33.4C97.3711 33.2333 97.4044 33 97.4711 32.7C97.5711 32.3666 97.6211 32.1166 97.6211 31.95C97.6211 30.1166 97.5378 27.3666 97.3711 23.7C97.2044 20.0333 97.1211 17.2833 97.1211 15.45C97.1211 14.7833 97.2378 14.3833 97.4711 14.25C97.7044 14.0833 98.1544 14 98.8211 14C99.6544 14 100.138 14.3 100.271 14.9C100.304 15.5666 100.338 16.2166 100.371 16.85C101.238 15.5166 101.738 14.7666 101.871 14.6C102.604 13.7666 103.371 13.35 104.171 13.35C104.771 13.35 105.371 13.5333 105.971 13.9C106.304 14.1 106.754 14.6166 107.321 15.45C107.921 16.2833 108.221 16.8666 108.221 17.2Z"
+                            fill="currentColor"
+                          ></path>
+                          <path
+                            d="M124.573 25.15C124.573 28.0166 123.939 30.5166 122.673 32.65C121.173 35.2166 119.089 36.5 116.423 36.5C113.723 36.5 111.706 35.4499 110.373 33.3499C109.273 31.6166 108.723 29.3166 108.723 26.45C108.723 23.6166 109.356 20.8333 110.623 18.1C112.223 14.7333 114.256 13.05 116.723 13.05C117.356 13.05 118.256 13.4166 119.423 14.15C122.856 16.2833 124.573 19.9499 124.573 25.15ZM122.173 25.1C122.173 22.9666 121.889 21.05 121.323 19.35C120.489 16.9833 119.206 15.8 117.473 15.8C115.473 15.8 113.906 17.1166 112.773 19.75C111.906 21.7833 111.473 23.9666 111.473 26.2999C111.473 28.3999 111.773 30.1666 112.373 31.5999C113.239 33.5666 114.589 34.5499 116.423 34.5499C118.423 34.5499 119.939 33.4166 120.973 31.15C121.773 29.3833 122.173 27.3666 122.173 25.1Z"
+                            fill="currentColor"
+                          ></path>
+                          <path
+                            d="M133.482 10.35C133.482 10.8166 133.265 11.2166 132.832 11.5499C132.432 11.8833 131.999 12.05 131.532 12.05C131.032 12.05 130.315 11.45 129.382 10.25C129.382 10.1166 129.382 9.88328 129.382 9.54995C129.382 8.54995 129.882 8.04995 130.882 8.04995C131.549 8.04995 132.149 8.26662 132.682 8.69995C133.215 9.13328 133.482 9.68328 133.482 10.35ZM133.182 15.45C132.615 17.1166 132.332 18.6666 132.332 20.1C132.332 22.3666 132.382 25.7666 132.482 30.2999C132.582 34.7999 132.632 38.1833 132.632 40.45C132.632 42.65 132.099 44.5833 131.032 46.25C129.765 48.1833 128.099 49.15 126.032 49.15C124.932 49.15 123.332 48.6666 121.232 47.7C118.899 46.6666 117.732 45.6833 117.732 44.75C117.732 44.1833 118.082 43.9 118.782 43.9C119.015 43.9 119.182 43.9166 119.282 43.95C120.815 45.8166 122.715 46.75 124.982 46.75C128.449 46.75 130.182 43.7333 130.182 37.7C130.182 37.5333 130.065 30.2166 129.832 15.75L130.232 15.3C131.265 15.0333 131.849 14.9 131.982 14.9C132.415 14.9 132.815 15.0833 133.182 15.45Z"
+                            fill="currentColor"
+                          ></path>
+                          <path
+                            d="M150.638 30.0499C150.638 31.5166 149.655 32.8333 147.688 34C145.922 35.0666 144.255 35.5999 142.688 35.5999C138.222 35.5999 135.988 32.7666 135.988 27.0999C135.988 24.5999 136.438 21.9166 137.338 19.05C138.538 15.3166 140.072 13.45 141.938 13.45C143.538 13.45 145.288 14.2666 147.188 15.9C149.088 17.5 150.038 19.1 150.038 20.7C150.038 22.7666 149.205 24.5666 147.538 26.0999C145.872 27.6333 143.988 28.4 141.888 28.4C141.688 28.4 141.255 28.2333 140.588 27.9C139.955 27.5666 139.522 27.4 139.288 27.4C138.855 27.4 138.638 27.5333 138.638 27.7999C138.638 31.6333 139.905 33.5499 142.438 33.5499C143.738 33.5499 144.938 33.1166 146.038 32.25C146.705 31.75 147.438 30.9666 148.238 29.9C148.872 29.0666 149.288 28.65 149.488 28.65C150.255 28.65 150.638 29.1166 150.638 30.0499ZM147.188 20.85C147.188 19.6833 146.855 18.6 146.188 17.6C145.522 16.5666 144.638 16.0499 143.538 16.0499C142.205 16.0499 141.122 16.8833 140.288 18.5499C139.588 19.9499 139.238 21.4 139.238 22.9C139.238 23.8666 139.538 24.6833 140.138 25.35C140.772 25.9833 141.572 26.2999 142.538 26.2999C143.905 26.2999 145.038 25.7166 145.938 24.55C146.772 23.4833 147.188 22.25 147.188 20.85Z"
+                            fill="currentColor"
+                          ></path>
+                          <path
+                            d="M168.602 29.7999C168.602 30.5999 167.919 31.6833 166.552 33.0499C165.186 34.3833 164.069 35.1666 163.202 35.4C162.036 35.7666 161.069 35.95 160.302 35.95C157.869 35.95 156.002 35.0666 154.702 33.2999C153.502 31.7333 152.902 29.7 152.902 27.2C152.902 24.6333 153.452 21.7666 154.552 18.6C155.919 14.6666 157.619 12.7 159.652 12.7C160.619 12.7 161.902 13.1833 163.502 14.15C165.102 15.0833 166.002 15.9833 166.202 16.85C166.436 17.8833 166.552 18.9 166.552 19.9C166.552 23.5666 166.002 25.4 164.902 25.4C164.636 25.4 164.319 25.3 163.952 25.1C163.586 24.9 163.402 24.6666 163.402 24.4C163.402 24.2666 163.469 24.1 163.602 23.9C163.736 23.6666 163.819 23.5166 163.852 23.45C163.986 23.0166 164.052 22.0166 164.052 20.45C164.052 16.75 163.219 14.9 161.552 14.9C159.719 14.9 158.219 16.5833 157.052 19.95C156.186 22.55 155.752 25.0166 155.752 27.3499C155.752 29.1499 156.036 30.6499 156.602 31.8499C157.369 33.4166 158.552 34.2 160.152 34.2C161.119 34.2 162.252 33.7 163.552 32.7C164.719 31.8 165.586 30.8499 166.152 29.8499C166.286 29.5166 166.486 29.05 166.752 28.45C166.919 28.2166 167.152 28.0999 167.452 28.0999C167.652 28.0999 167.886 28.3333 168.152 28.7999C168.452 29.2333 168.602 29.5666 168.602 29.7999Z"
+                            fill="currentColor"
+                          ></path>
+                          <path
+                            d="M178.704 19.25C178.437 19.45 177.804 19.6166 176.804 19.75C175.704 19.8833 175.071 20 174.904 20.1C174.871 20.4666 174.854 22.3166 174.854 25.65C174.854 28.2499 174.887 30 174.954 30.9C174.954 31.2666 175.037 31.85 175.204 32.65C175.371 33.45 175.454 34.0666 175.454 34.5C175.454 34.7666 175.287 35.0333 174.954 35.2999C174.621 35.5666 174.321 35.7 174.054 35.7C173.387 35.7 172.854 35.0166 172.454 33.65C172.187 32.65 172.054 31.6999 172.054 30.7999C172.054 26.0999 172.087 22.6333 172.154 20.4C171.954 20.2333 171.187 20.2333 169.854 20.4C168.787 20.5333 168.254 20.15 168.254 19.25C168.254 17.9833 169.604 17.4 172.304 17.5L172.954 8.44995C172.954 8.34995 172.904 8.19995 172.804 7.99995C172.737 7.76662 172.704 7.59995 172.704 7.49995C172.704 7.29995 172.837 7.11662 173.104 6.94995C173.371 6.74995 173.687 6.66662 174.054 6.69995C175.221 6.79995 175.804 7.38329 175.804 8.44995C175.804 9.28328 175.687 10.5333 175.454 12.2C175.221 13.8666 175.104 15.1 175.104 15.9C175.104 16.3 175.137 16.6833 175.204 17.05L177.954 16.9C178.887 16.9 179.354 17.2666 179.354 18C179.354 18.5333 179.137 18.9499 178.704 19.25Z"
+                            fill="currentColor"
+                          ></path>
+                          <path
+                            d="M195.205 32.0499C195.205 33.2166 194.322 34.2 192.555 35C191.089 35.6333 189.672 35.95 188.305 35.95C187.405 35.95 186.372 35.7333 185.205 35.2999C184.572 35.0333 183.555 34.3333 182.155 33.2C180.622 31.9666 179.855 31.1166 179.855 30.65C179.855 29.6166 180.472 29.15 181.705 29.25H182.005C182.072 30.25 183.139 31.3333 185.205 32.5C187.072 33.5666 188.572 34.0999 189.705 34.0999C191.172 34.0999 191.905 33.5999 191.905 32.5999C191.905 31.9999 191.005 31.1666 189.205 30.0999C186.739 28.6666 185.055 27.5166 184.155 26.65C182.322 24.8833 181.405 22.85 181.405 20.55C181.405 18.8166 181.855 17.1666 182.755 15.6C183.789 13.7333 185.089 12.7999 186.655 12.7999C187.789 12.7999 189.155 13.3333 190.755 14.4C192.355 15.4333 193.289 16.4833 193.555 17.5499C193.822 18.4499 193.955 19.5 193.955 20.7C193.955 22 193.722 23.4166 193.255 24.95C192.955 25.1833 192.605 25.3 192.205 25.3C191.972 25.3 191.605 25.2166 191.105 25.0499C190.605 24.8499 190.355 24.65 190.355 24.45C190.355 24.5833 190.539 24.2166 190.905 23.35C191.172 22.7833 191.305 21.75 191.305 20.25C191.305 16.6833 190.189 14.9 187.955 14.9C186.789 14.9 185.855 15.6833 185.155 17.25C184.555 18.5166 184.255 19.8 184.255 21.1C184.255 22.7333 185.205 24.3166 187.105 25.85C187.739 26.3833 189.489 27.5333 192.355 29.2999C194.255 30.4666 195.205 31.3833 195.205 32.0499Z"
+                            fill="currentColor"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header_background-image-wrapper">
+        <div class="image-overlay-layer"></div>
+        <img
+          src="images/background.svg"
+          loading="eager"
+          alt=""
+          class="header_background-image"
+        />
+      </div>
+    </header>
+    <section class="section_logo">
+      <div class="padding-global">
+        <div class="container-large">
+          <div class="padding-section-medium padding-top-0">
+            <div class="margin-bottom margin-large">
+              <div class="text-align-center">
+                <div class="max-width-large align-center">
+                  <div class="text-size-medium text-style-allcaps">
+                    <span>6+ YEARS OF WEB &amp; CRM INTEGRATION EXPERIENCE</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="logo_list">
+              <a
+                href="https://www.5fourdigital.com/"
+                target="_blank"
+                class="logo_list-link w-inline-block"
+              >
+                <div
+                  id="w-node-bb4d8235-3651-d3b7-6328-5bd7cb90a309-b19dbc34"
+                  class="logo_wrapper"
+                >
+                  <img
+                    src="images/figma-logo-white.png"
+                    loading="lazy"
+                    alt=""
+                    class="logo_logo"
+                  />
+                </div>
+              </a>
+              <a
+                href="https://www.evvvolution.com/"
+                target="_blank"
+                class="logo_list-link w-inline-block"
+              >
+                <div
+                  id="w-node-bb4d8235-3651-d3b7-6328-5bd7cb90a30b-b19dbc34"
+                  class="logo_wrapper"
+                >
+                  <img
+                    src="images/webflow-logo-white.png"
+                    loading="lazy"
+                    alt=""
+                    class="logo_logo"
+                  />
+                </div>
+              </a>
+              <a
+                href="https://zereflab.com/"
+                target="_blank"
+                class="logo_list-link w-inline-block"
+              >
+                <div
+                  id="w-node-bb4d8235-3651-d3b7-6328-5bd7cb90a307-b19dbc34"
+                  class="logo_wrapper"
+                >
+                  <img
+                    src="images/highlevel-logo-white.png"
+                    loading="lazy"
+                    alt=""
+                    class="logo_logo ghl-logo"
+                  />
+                </div>
+              </a>
+              <a
+                href="https://heymara.com/"
+                target="_blank"
+                class="logo_list-link w-inline-block"
+              >
+                <div
+                  id="w-node-bb4d8235-3651-d3b7-6328-5bd7cb90a305-b19dbc34"
+                  class="logo_wrapper"
+                >
+                  <img
+                    class="logo_logo"
+                    src="images/mailchimp-logo.png"
+                    alt=""
+                    sizes="100vw"
+                    loading="lazy"
+                    srcset="
+                          images/mailchimp-logo.png  500w,
+                          images/mailchimp-logo.png  800w,
+                          images/mailchimp-logo.png 1080w,
+                          images/mailchimp-logo.png 1200w
+                        "
+                  />
+                </div>
+              </a>
+              <a
+                href="https://www.dealpage.io/"
+                target="_blank"
+                class="logo_list-link w-inline-block"
+              >
+                <div
+                  id="w-node-bb4d8235-3651-d3b7-6328-5bd7cb90a301-b19dbc34"
+                  class="logo_wrapper"
+                >
+                  <img
+                    src="images/zapier-logo-white.png"
+                    loading="lazy"
+                    alt=""
+                    class="logo_logo"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      id="work"
+      data-w-id="f0ed4de9-f03f-c224-4d94-de8f5fd55219"
+      class="section_portfolio sm-padding"
+    >
+      <div style="width: 95%" class="padding-global-portfolio">
+        <div class="padding-section-large">
+          <div class="portfolio_wrapper">
+            <div class="padding-top padding-section-large">
+              <div class="margin-bottom margin-xlarge">
+                <div class="text-align-center">
+                  <div class="max-width-large align-center">
+                    <div class="margin-bottom margin-small">
+                      <h2 class="max-width-large mx-20">
+                        A taste of what I can <br />do for you
+                      </h2>
+                    </div>
+                    <p class="text-size-medium">
+                      Check out my work - this is worth a thousand words about
+                      me.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              data-w-id="f0ed4de9-f03f-c224-4d94-de8f5fd55228"
+              class="portfolio_component"
+            >
+              <div class="portfolio_list-wrapper">
+                <div class="w-layout-grid portfolio_list">
+                  <a
+                    id="w-node-_1feedf27-dc0c-ca09-28f2-f1119a6dcb8d-b19dbc34"
+                    href="https://wraffle-portolfio.webflow.io/"
+                    target="_blank"
+                    class="portfolio_item hide-tablet w-inline-block"
+                  >
+                    <div class="portfolio_image-overlay-layer"></div>
+                    <img
+                      class="portfolio_image"
+                      src="images/Wraffle---Home-1_1Wraffle---Home-1.webp"
+                      alt="Website design"
+                      sizes="(max-width: 991px) 100vw, 32vw"
+                      loading="lazy"
+                      srcset="
+                            images/Wraffle---Home-1_1-p-500.jpg            500w,
+                            images/Wraffle---Home-1_1Wraffle---Home-1.webp 800w
+                          "
+                    />
+                    <div class="button is-portfolio">
+                      <div class="button_text-small">View Project</div>
+                      <div
+                        bind="1feedf27-dc0c-ca09-28f2-f1119a6dcb93"
+                        class="icon-1x1-small w-embed"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="100%"
+                          height="100%"
+                          viewbox="0 0 15 15"
+                          fill="none"
+                          preserveaspectratio="xMidYMid meet"
+                          aria-hidden="true"
+                          role="img"
+                        >
+                          <g clip-path="url(#clip0_614_1002)">
+                            <path
+                              d="M3.854 11.146L11.146 3.85396"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M11.146 9.82019L11.146 3.85398L5.17978 3.85398"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                          </g>
+                          <defs>
+                            <clippath id="clip0_614_1002">
+                              <rect
+                                width="15"
+                                height="15"
+                                fill="currentColor"
+                                transform="translate(0 15) rotate(-90)"
+                              ></rect>
+                            </clippath>
+                          </defs>
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
+                  <a
+                    id="w-node-_1476c423-7e6e-d686-3ed8-4526287533be-b19dbc34"
+                    href="http://www.joewebbdesigns.com"
+                    target="_blank"
+                    class="portfolio_item w-inline-block"
+                  >
+                    <div class="portfolio_image-overlay-layer"></div>
+                    <img
+                      class="portfolio_image"
+                      src="images/Joe-Webb-Designs---Professional-Web-Design---Development.png"
+                      alt=""
+                      sizes="(max-width: 991px) 55vw, 32vw"
+                      loading="lazy"
+                      srcset="
+                            images/Joe-Webb-Designs---Professional-Web-Design---Development-p-500.png   500w,
+                            images/Joe-Webb-Designs---Professional-Web-Design---Development-p-800.png   800w,
+                            images/Joe-Webb-Designs---Professional-Web-Design---Development-p-1080.png 1080w,
+                            images/Joe-Webb-Designs---Professional-Web-Design---Development.png        1512w
+                          "
+                    />
+                    <div class="button is-portfolio is-right">
+                      <div class="button_text-small hide-tablet">
+                        View Project
+                      </div>
+                      <div
+                        bind="1476c423-7e6e-d686-3ed8-4526287533c4"
+                        class="icon-1x1-small w-embed"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="100%"
+                          height="100%"
+                          viewbox="0 0 15 15"
+                          fill="none"
+                          preserveaspectratio="xMidYMid meet"
+                          aria-hidden="true"
+                          role="img"
+                        >
+                          <g clip-path="url(#clip0_614_1002)">
+                            <path
+                              d="M3.854 11.146L11.146 3.85396"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M11.146 9.82019L11.146 3.85398L5.17978 3.85398"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                          </g>
+                          <defs>
+                            <clippath id="clip0_614_1002">
+                              <rect
+                                width="15"
+                                height="15"
+                                fill="currentColor"
+                                transform="translate(0 15) rotate(-90)"
+                              ></rect>
+                            </clippath>
+                          </defs>
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
+                  <a
+                    id="w-node-_7dfff69a-c10a-7cc9-3c43-d937af2775b6-b19dbc34"
+                    href="https://vellura.webflow.io/"
+                    target="_blank"
+                    class="portfolio_item w-inline-block"
+                  >
+                    <div class="portfolio_image-overlay-layer"></div>
+                    <img
+                      class="portfolio_image"
+                      src="images/vellura.webflow.io_-1.png"
+                      alt=""
+                      sizes="(max-width: 991px) 55vw, 32vw"
+                      loading="lazy"
+                      srcset="
+                            images/vellura.webflow.io_-1-p-500.png   500w,
+                            images/vellura.webflow.io_-1-p-800.png   800w,
+                            images/vellura.webflow.io_-1-p-1080.png 1080w,
+                            images/vellura.webflow.io_-1.png        1400w
+                          "
+                    />
+                    <div class="button is-portfolio">
+                      <div class="button_text-small hide-tablet">
+                        View Project
+                      </div>
+                      <div
+                        bind="7dfff69a-c10a-7cc9-3c43-d937af2775bc"
+                        class="icon-1x1-small w-embed"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="100%"
+                          height="100%"
+                          viewbox="0 0 15 15"
+                          fill="none"
+                          preserveaspectratio="xMidYMid meet"
+                          aria-hidden="true"
+                          role="img"
+                        >
+                          <g clip-path="url(#clip0_614_1002)">
+                            <path
+                              d="M3.854 11.146L11.146 3.85396"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M11.146 9.82019L11.146 3.85398L5.17978 3.85398"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                          </g>
+                          <defs>
+                            <clippath id="clip0_614_1002">
+                              <rect
+                                width="15"
+                                height="15"
+                                fill="currentColor"
+                                transform="translate(0 15) rotate(-90)"
+                              ></rect>
+                            </clippath>
+                          </defs>
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
+                  <a
+                    id="w-node-bcf5c29a-c01e-1d88-729a-87b562523d63-b19dbc34"
+                    href="https://old-vick-domain.webflow.io/"
+                    target="_blank"
+                    class="portfolio_item hide-tablet w-inline-block"
+                  >
+                    <div class="portfolio_image-overlay-layer"></div>
+                    <img
+                      class="portfolio_image"
+                      src="images/old-vick-domain.webflow.io_.png"
+                      alt=""
+                      sizes="(max-width: 991px) 100vw, 32vw"
+                      loading="lazy"
+                      srcset="
+                            images/old-vick-domain.webflow.io_-p-500.png   500w,
+                            images/old-vick-domain.webflow.io_-p-800.png   800w,
+                            images/old-vick-domain.webflow.io_-p-1080.png 1080w,
+                            images/old-vick-domain.webflow.io_.png        1300w
+                          "
+                    />
+                    <div class="button is-portfolio is-right">
+                      <div class="button_text-small hide-tablet">
+                        View Project
+                      </div>
+                      <div
+                        bind="bcf5c29a-c01e-1d88-729a-87b562523d69"
+                        class="icon-1x1-small w-embed"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="100%"
+                          height="100%"
+                          viewbox="0 0 15 15"
+                          fill="none"
+                          preserveaspectratio="xMidYMid meet"
+                          aria-hidden="true"
+                          role="img"
+                        >
+                          <g clip-path="url(#clip0_614_1002)">
+                            <path
+                              d="M3.854 11.146L11.146 3.85396"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M11.146 9.82019L11.146 3.85398L5.17978 3.85398"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                          </g>
+                          <defs>
+                            <clippath id="clip0_614_1002">
+                              <rect
+                                width="15"
+                                height="15"
+                                fill="currentColor"
+                                transform="translate(0 15) rotate(-90)"
+                              ></rect>
+                            </clippath>
+                          </defs>
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="portfolio_list-wrapper is-bottom">
+                <div class="w-layout-grid portfolio_list">
+                  <a
+                    id="w-node-_1476c423-7e6e-d686-3ed8-4526287533b0-b19dbc34"
+                    href="https://sams-fresh-site-66e135.webflow.io/"
+                    target="_blank"
+                    class="portfolio_item hide-tablet w-inline-block"
+                  >
+                    <div class="portfolio_image-overlay-layer"></div>
+                    <img
+                      class="portfolio_image"
+                      src="images/screencapture-sams-fresh-site-66e135-webflow-io-2023-04-09-09_11_29screencapture-sams-fresh-site-66e135-webflow-io-2023-04-09-09_11_28.webp"
+                      alt="Website design"
+                      sizes="(max-width: 991px) 100vw, 32vw"
+                      loading="lazy"
+                      srcset="
+                            images/screencapture-sams-fresh-site-66e135-webflow-io-2023-04-09-09_11_29-p-500.jpg                                                               500w,
+                            images/screencapture-sams-fresh-site-66e135-webflow-io-2023-04-09-09_11_29screencapture-sams-fresh-site-66e135-webflow-io-2023-04-09-09_11_28.webp 800w
+                          "
+                    />
+                    <div class="button is-portfolio">
+                      <div class="button_text-small">View Project</div>
+                      <div
+                        bind="1476c423-7e6e-d686-3ed8-4526287533b6"
+                        class="icon-1x1-small w-embed"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="100%"
+                          height="100%"
+                          viewbox="0 0 15 15"
+                          fill="none"
+                          preserveaspectratio="xMidYMid meet"
+                          aria-hidden="true"
+                          role="img"
+                        >
+                          <g clip-path="url(#clip0_614_1002)">
+                            <path
+                              d="M3.854 11.146L11.146 3.85396"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M11.146 9.82019L11.146 3.85398L5.17978 3.85398"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                          </g>
+                          <defs>
+                            <clippath id="clip0_614_1002">
+                              <rect
+                                width="15"
+                                height="15"
+                                fill="currentColor"
+                                transform="translate(0 15) rotate(-90)"
+                              ></rect>
+                            </clippath>
+                          </defs>
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
+                  <a
+                    id="w-node-_649b915e-847f-a773-2500-d8ff90123108-b19dbc34"
+                    data-w-id="649b915e-847f-a773-2500-d8ff90123108"
+                    href="https://stealthy-whiskers.webflow.io/"
+                    target="_blank"
+                    class="portfolio_item w-inline-block"
+                  >
+                    <div class="portfolio_image-overlay-layer"></div>
+                    <img
+                      class="portfolio_image"
+                      src="images/stealthy-whiskers.webflow.io_.png"
+                      alt=""
+                      sizes="(max-width: 991px) 55vw, 32vw"
+                      loading="lazy"
+                      srcset="
+                            images/stealthy-whiskers.webflow.io_-p-500.png  500w,
+                            images/stealthy-whiskers.webflow.io_-p-800.png  800w,
+                            images/stealthy-whiskers.webflow.io_.png       1050w
+                          "
+                    />
+                    <div class="button is-portfolio is-right">
+                      <div class="button_text-small hide-tablet">
+                        View Project
+                      </div>
+                      <div
+                        bind="aabad387-e3d1-a65e-35d7-f9df9af29393"
+                        class="icon-1x1-small w-embed"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="100%"
+                          height="100%"
+                          viewbox="0 0 15 15"
+                          fill="none"
+                          preserveaspectratio="xMidYMid meet"
+                          aria-hidden="true"
+                          role="img"
+                        >
+                          <g clip-path="url(#clip0_614_1002)">
+                            <path
+                              d="M3.854 11.146L11.146 3.85396"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M11.146 9.82019L11.146 3.85398L5.17978 3.85398"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                          </g>
+                          <defs>
+                            <clippath id="clip0_614_1002">
+                              <rect
+                                width="15"
+                                height="15"
+                                fill="currentColor"
+                                transform="translate(0 15) rotate(-90)"
+                              ></rect>
+                            </clippath>
+                          </defs>
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
+                  <a
+                    id="w-node-_1476c423-7e6e-d686-3ed8-4526287533b7-b19dbc34"
+                    href="https://lead-mining-pros.webflow.io/"
+                    target="_blank"
+                    class="portfolio_item w-inline-block"
+                  >
+                    <div class="portfolio_image-overlay-layer"></div>
+                    <img
+                      class="portfolio_image"
+                      src="images/lead-mining-pros.webflow.io_.png"
+                      alt=""
+                      sizes="(max-width: 991px) 55vw, 32vw"
+                      loading="lazy"
+                      srcset="
+                            images/lead-mining-pros.webflow.io_-p-500.png   500w,
+                            images/lead-mining-pros.webflow.io_-p-800.png   800w,
+                            images/lead-mining-pros.webflow.io_-p-1080.png 1080w,
+                            images/lead-mining-pros.webflow.io_-p-1600.png 1600w,
+                            images/lead-mining-pros.webflow.io_-p-2000.png 2000w,
+                            images/lead-mining-pros.webflow.io_-p-2600.png 2600w,
+                            images/lead-mining-pros.webflow.io_.png        2700w
+                          "
+                    />
+                    <div class="button is-portfolio">
+                      <div class="button_text-small">View Project</div>
+                      <div
+                        bind="1476c423-7e6e-d686-3ed8-4526287533bd"
+                        class="icon-1x1-small w-embed"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="100%"
+                          height="100%"
+                          viewbox="0 0 15 15"
+                          fill="none"
+                          preserveaspectratio="xMidYMid meet"
+                          aria-hidden="true"
+                          role="img"
+                        >
+                          <g clip-path="url(#clip0_614_1002)">
+                            <path
+                              d="M3.854 11.146L11.146 3.85396"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M11.146 9.82019L11.146 3.85398L5.17978 3.85398"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                          </g>
+                          <defs>
+                            <clippath id="clip0_614_1002">
+                              <rect
+                                width="15"
+                                height="15"
+                                fill="currentColor"
+                                transform="translate(0 15) rotate(-90)"
+                              ></rect>
+                            </clippath>
+                          </defs>
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
+                  <a
+                    id="w-node-_1476c423-7e6e-d686-3ed8-4526287533c5-b19dbc34"
+                    href="https://www.pfpclinicgym.com/"
+                    target="_blank"
+                    class="portfolio_item hide-tablet w-inline-block"
+                  >
+                    <div class="portfolio_image-overlay-layer"></div>
+                    <img
+                      class="portfolio_image"
+                      src="images/PFP---Home-1_1PFP---Home-1.webp"
+                      alt="Website design"
+                      sizes="(max-width: 991px) 100vw, 32vw"
+                      loading="lazy"
+                      srcset="
+                            images/PFP---Home-1_1-p-500.jpg        500w,
+                            images/PFP---Home-1_1PFP---Home-1.webp 800w
+                          "
+                    />
+                    <div class="button is-portfolio">
+                      <div class="button_text-small hide-tablet">
+                        View Project
+                      </div>
+                      <div
+                        bind="1476c423-7e6e-d686-3ed8-4526287533cb"
+                        class="icon-1x1-small w-embed"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="100%"
+                          height="100%"
+                          viewbox="0 0 15 15"
+                          fill="none"
+                          preserveaspectratio="xMidYMid meet"
+                          aria-hidden="true"
+                          role="img"
+                        >
+                          <g clip-path="url(#clip0_614_1002)">
+                            <path
+                              d="M3.854 11.146L11.146 3.85396"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M11.146 9.82019L11.146 3.85398L5.17978 3.85398"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                          </g>
+                          <defs>
+                            <clippath id="clip0_614_1002">
+                              <rect
+                                width="15"
+                                height="15"
+                                fill="currentColor"
+                                transform="translate(0 15) rotate(-90)"
+                              ></rect>
+                            </clippath>
+                          </defs>
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="portfolio_list-wrapper">
+                <div class="w-layout-grid portfolio_list">
+                  <a
+                    id="w-node-fc07edcd-fa9e-034c-7332-a8c4b7e400cd-b19dbc34"
+                    href="https://www.hireatriz.com/"
+                    target="_blank"
+                    class="portfolio_item hide-tablet w-inline-block"
+                  >
+                    <div class="portfolio_image-overlay-layer"></div>
+                    <img
+                      class="portfolio_image"
+                      src="images/Atriz-Global---Home-1.jpg"
+                      alt=""
+                      sizes="(max-width: 991px) 100vw, 32vw"
+                      loading="lazy"
+                      srcset="
+                            images/Atriz-Global---Home-1-p-500.jpg 500w,
+                            images/Atriz-Global---Home-1.jpg       800w
+                          "
+                    />
+                    <div class="button is-portfolio">
+                      <div class="button_text-small">View Project</div>
+                      <div
+                        bind="fc07edcd-fa9e-034c-7332-a8c4b7e400d3"
+                        class="icon-1x1-small w-embed"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="100%"
+                          height="100%"
+                          viewbox="0 0 15 15"
+                          fill="none"
+                          preserveaspectratio="xMidYMid meet"
+                          aria-hidden="true"
+                          role="img"
+                        >
+                          <g clip-path="url(#clip0_614_1002)">
+                            <path
+                              d="M3.854 11.146L11.146 3.85396"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M11.146 9.82019L11.146 3.85398L5.17978 3.85398"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                          </g>
+                          <defs>
+                            <clippath id="clip0_614_1002">
+                              <rect
+                                width="15"
+                                height="15"
+                                fill="currentColor"
+                                transform="translate(0 15) rotate(-90)"
+                              ></rect>
+                            </clippath>
+                          </defs>
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
+                  <a
+                    id="w-node-fc07edcd-fa9e-034c-7332-a8c4b7e400d4-b19dbc34"
+                    href="https://the-nft-shop.webflow.io/"
+                    target="_blank"
+                    class="portfolio_item w-inline-block"
+                  >
+                    <div class="portfolio_image-overlay-layer"></div>
+                    <img
+                      class="portfolio_image"
+                      src="images/the-nft-shop.webflow.io_.png"
+                      alt=""
+                      sizes="(max-width: 991px) 55vw, 32vw"
+                      loading="lazy"
+                      srcset="
+                            images/the-nft-shop.webflow.io_-p-500.png   500w,
+                            images/the-nft-shop.webflow.io_-p-800.png   800w,
+                            images/the-nft-shop.webflow.io_-p-1080.png 1080w,
+                            images/the-nft-shop.webflow.io_.png        1300w
+                          "
+                    />
+                    <div class="button is-portfolio is-right">
+                      <div class="button_text-small hide-tablet">
+                        View Project
+                      </div>
+                      <div
+                        bind="fc07edcd-fa9e-034c-7332-a8c4b7e400da"
+                        class="icon-1x1-small w-embed"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="100%"
+                          height="100%"
+                          viewbox="0 0 15 15"
+                          fill="none"
+                          preserveaspectratio="xMidYMid meet"
+                          aria-hidden="true"
+                          role="img"
+                        >
+                          <g clip-path="url(#clip0_614_1002)">
+                            <path
+                              d="M3.854 11.146L11.146 3.85396"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M11.146 9.82019L11.146 3.85398L5.17978 3.85398"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                          </g>
+                          <defs>
+                            <clippath id="clip0_614_1002">
+                              <rect
+                                width="15"
+                                height="15"
+                                fill="currentColor"
+                                transform="translate(0 15) rotate(-90)"
+                              ></rect>
+                            </clippath>
+                          </defs>
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
+                  <a
+                    id="w-node-fc07edcd-fa9e-034c-7332-a8c4b7e400db-b19dbc34"
+                    href="https://www.rippleshot.com/"
+                    target="_blank"
+                    class="portfolio_item w-inline-block"
+                  >
+                    <div class="portfolio_image-overlay-layer"></div>
+                    <img
+                      class="portfolio_image"
+                      src="images/screencapture-rippleshot-2023-04-09-09_11_57screencapture-rippleshot-2023-04-09-09_11_56.webp"
+                      alt="Website design"
+                      sizes="(max-width: 991px) 55vw, 32vw"
+                      loading="lazy"
+                      srcset="
+                            images/screencapture-rippleshot-2023-04-09-09_11_57-p-500.jpg                                        500w,
+                            images/screencapture-rippleshot-2023-04-09-09_11_57screencapture-rippleshot-2023-04-09-09_11_56.webp 800w
+                          "
+                    />
+                    <div class="button is-portfolio">
+                      <div class="button_text-small hide-tablet">
+                        View Project
+                      </div>
+                      <div
+                        bind="fc07edcd-fa9e-034c-7332-a8c4b7e400e1"
+                        class="icon-1x1-small w-embed"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="100%"
+                          height="100%"
+                          viewbox="0 0 15 15"
+                          fill="none"
+                          preserveaspectratio="xMidYMid meet"
+                          aria-hidden="true"
+                          role="img"
+                        >
+                          <g clip-path="url(#clip0_614_1002)">
+                            <path
+                              d="M3.854 11.146L11.146 3.85396"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M11.146 9.82019L11.146 3.85398L5.17978 3.85398"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                          </g>
+                          <defs>
+                            <clippath id="clip0_614_1002">
+                              <rect
+                                width="15"
+                                height="15"
+                                fill="currentColor"
+                                transform="translate(0 15) rotate(-90)"
+                              ></rect>
+                            </clippath>
+                          </defs>
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
+                  <a
+                    id="w-node-fc07edcd-fa9e-034c-7332-a8c4b7e400e2-b19dbc34"
+                    href="https://www.authenticom.com/product/dealervault"
+                    target="_blank"
+                    class="portfolio_item hide-tablet w-inline-block"
+                  >
+                    <div class="portfolio_image-overlay-layer"></div>
+                    <img
+                      class="portfolio_image"
+                      src="images/Frame-1-1.jpg"
+                      alt=""
+                      sizes="(max-width: 991px) 100vw, 32vw"
+                      loading="lazy"
+                      srcset="
+                            images/Frame-1-1-p-500.jpg 500w,
+                            images/Frame-1-1.jpg       800w
+                          "
+                    />
+                    <div class="button is-portfolio">
+                      <div class="button_text-small">View Project</div>
+                      <div
+                        bind="fc07edcd-fa9e-034c-7332-a8c4b7e400e8"
+                        class="icon-1x1-small w-embed"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="100%"
+                          height="100%"
+                          viewbox="0 0 15 15"
+                          fill="none"
+                          preserveaspectratio="xMidYMid meet"
+                          aria-hidden="true"
+                          role="img"
+                        >
+                          <g clip-path="url(#clip0_614_1002)">
+                            <path
+                              d="M3.854 11.146L11.146 3.85396"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                            <path
+                              d="M11.146 9.82019L11.146 3.85398L5.17978 3.85398"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                          </g>
+                          <defs>
+                            <clippath id="clip0_614_1002">
+                              <rect
+                                width="15"
+                                height="15"
+                                fill="currentColor"
+                                transform="translate(0 15) rotate(-90)"
+                              ></rect>
+                            </clippath>
+                          </defs>
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="capability" class="section_capability">
+      <div class="padding-global">
+        <div class="container-large">
+          <div class="padding-section-large">
+            <div class="capability_component">
+              <div class="margin-bottom margin-xxlarge">
+                <div class="text-align-center">
+                  <div class="max-width-medium">
+                    <h2>Transforming Ideas into Digital Realities</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="w-layout-grid capability_list">
+                <div class="capability_item">
+                  <div class="margin-bottom margin-custom1">
+                    <img
+                      src="images/ghl-icon.jpeg"
+                      loading="lazy"
+                      sizes="48px"
+                      srcset="
+                            images/ghl-icon-p-500.jpeg 500w,
+                            images/ghl-icon.jpeg       512w
+                          "
+                      alt=""
+                      class="capability_icon-image"
+                    />
+                  </div>
+                  <div class="margin-bottom margin-xsmall">
+                    <h3>Custom Automations</h3>
+                  </div>
+                  <p>
+                    Streamline operations and enhance profitability with
+                    tailored marketing automation tools.
+                  </p>
+                </div>
+                <div class="capability_item">
+                  <div class="margin-bottom margin-custom1">
+                    <img
+                      src="images/Webflow_logo_2023-2.svg"
+                      loading="lazy"
+                      alt=""
+                      class="capability_icon-image"
+                    />
+                  </div>
+                  <div class="margin-bottom margin-xsmall">
+                    <h3>Professionaly Designed</h3>
+                  </div>
+                  <p>
+                    Every site is meticulously designed to reflect your identity
+                    and engage your audience.
+                  </p>
+                </div>
+                <div class="capability_item">
+                  <div class="margin-bottom margin-custom1">
+                    <img
+                      src="images/search-1.svg"
+                      loading="lazy"
+                      alt="SEO"
+                      class="capability_icon-image"
+                    />
+                  </div>
+                  <div class="margin-bottom margin-xsmall">
+                    <h3>SEO Optimized</h3>
+                  </div>
+                  <p>
+                    Leveraging the latest SEO practices to ensure your site
+                    ranks high and attracts traffic.<br />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="capability_background-image-wrapper">
+        <div class="image-overlay-layer"></div>
+        <img
+          src="images/background.svg"
+          loading="eager"
+          alt=""
+          class="capability_background-image"
+        />
+      </div>
+    </section>
+    <section id="process" class="section_process">
+      <div class="padding-global">
+        <div class="container-large">
+          <div class="padding-section-large">
+            <div class="margin-bottom margin-xlarge">
+              <div class="text-align-center">
+                <div class="max-width-large align-center">
+                  <div class="max-width-medium align-center">
+                    <div class="margin-bottom margin-small">
+                      <h2 class="header_title">
+                        Transform Your Business Online in Just 5 Simple<br
+                        />Steps...
+                      </h2>
+                    </div>
+                  </div>
+                  <p class="text-size-medium">
+                    With a focus on streamlined processes and asynchronous
+                    communication, I prioritize your time and productivity,
+                    ensuring a smooth journey to achieving your online goals.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="w-layout-grid process_component">
+              <div
+                id="w-node-_4155532e-e0ea-9c10-0123-d89ad7b98fc6-b19dbc34"
+                class="w-layout-grid process_row"
+              >
+                <div class="process_card">
+                  <div class="process_card-content">
+                    <div class="process_card-content-top">
+                      <div class="margin-bottom margin-custom1">
+                        <img
+                          src="images/048579A7-9748-4357-A675-BF76610495E7_1048579A7-9748-4357-A675-BF76610495E7.webp"
+                          loading="lazy"
+                          alt="Mail"
+                          class="process_card-image"
+                        />
+                      </div>
+                      <div class="margin-bottom margin-xsmall">
+                        <div class="text-color-green">01</div>
+                      </div>
+                      <div class="margin-bottom margin-xsmall">
+                        <h5>Request</h5>
+                      </div>
+                      <p class="text-size-small">Submit your project idea</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="process_card">
+                  <div class="process_card-content">
+                    <div class="process_card-content-top">
+                      <div class="margin-bottom margin-custom1">
+                        <img
+                          src="images/EFB6AC06-B22C-42F1-B402-CF24DEF2A34D_1EFB6AC06-B22C-42F1-B402-CF24DEF2A34D.webp"
+                          loading="lazy"
+                          alt="Check List"
+                          class="process_card-image"
+                        />
+                      </div>
+                      <div class="margin-bottom margin-xsmall">
+                        <div class="text-color-green">02</div>
+                      </div>
+                      <div class="margin-bottom margin-xsmall">
+                        <h5>Estimate</h5>
+                      </div>
+                      <p class="text-size-small">Receive a detailed estimate</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="process_card">
+                  <div class="process_card-content">
+                    <div class="process_card-content-top">
+                      <div class="margin-bottom margin-custom1">
+                        <img
+                          src="images/D579D1FF-97FE-42E0-803A-33634CB722AD_1D579D1FF-97FE-42E0-803A-33634CB722AD.webp"
+                          loading="lazy"
+                          alt="Calendar"
+                          class="process_card-image"
+                        />
+                      </div>
+                      <div class="margin-bottom margin-xsmall">
+                        <div class="text-color-green">03</div>
+                      </div>
+                      <div class="margin-bottom margin-xsmall">
+                        <h5>Approve</h5>
+                      </div>
+                      <p class="text-size-small">
+                        Approve and share any additional details needed
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="process_card">
+                  <div class="process_card-content">
+                    <div class="process_card-content-top">
+                      <div class="margin-bottom margin-custom1">
+                        <img
+                          src="images/02073CC0-207B-4079-9DA5-BBFDA837CE50_102073CC0-207B-4079-9DA5-BBFDA837CE50.webp"
+                          loading="lazy"
+                          alt="Design &amp; Dev"
+                          class="process_card-image"
+                        />
+                      </div>
+                      <div class="margin-bottom margin-xsmall">
+                        <div class="text-color-green">04</div>
+                      </div>
+                      <div class="margin-bottom margin-xsmall">
+                        <h5>Develop</h5>
+                      </div>
+                      <p class="text-size-small">
+                        Watch as your site comes to life.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="process_card">
+                  <div class="process_card-content">
+                    <div class="process_card-content-top">
+                      <div class="margin-bottom margin-custom1">
+                        <img
+                          src="images/0C17496A-94A8-4C96-BA7A-447EE7E40FD4_10C17496A-94A8-4C96-BA7A-447EE7E40FD4.webp"
+                          loading="lazy"
+                          alt="Dollar coins"
+                          class="process_card-image"
+                        />
+                      </div>
+                      <div class="margin-bottom margin-xsmall">
+                        <div class="text-color-green">05</div>
+                      </div>
+                      <div class="margin-bottom margin-xsmall">
+                        <h5>Deliver</h5>
+                      </div>
+                      <p class="text-size-small">
+                        Enjoy the benefits of your new digital masterpiece.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="testimonial" class="section_testimonial">
+      <div class="padding-global">
+        <div class="container-large">
+          <div class="padding-section-large">
+            <div class="margin-bottom margin-xlarge">
+              <div class="text-align-center">
+                <div class="max-width-large align-center">
+                  <h2>What they say about me</h2>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial_component">
+              <div
+                id="w-node-_1becf36a-6686-ad7e-3cb7-38d9b2311f6d-b19dbc34"
+                class="testimonial_col"
+              >
+                <div class="testimonial_content">
+                  <div class="testimonial_rating-wrapper">
+                    <div
+                      bind="f78cf38d-fcd3-8ec5-cde4-09cbd2251e47"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="f78cf38d-fcd3-8ec5-cde4-09cbd2251e48"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="f78cf38d-fcd3-8ec5-cde4-09cbd2251e49"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="f78cf38d-fcd3-8ec5-cde4-09cbd2251e4a"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="f78cf38d-fcd3-8ec5-cde4-09cbd2251e4b"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="margin-vertical margin-medium">
+                    <div class="heading-style-h5">
+                      Joe provides great design and has a great sense of user
+                      experience and aesthetics. He delivers on time and is an
+                      overall great communicator. I highly recommend working
+                      with him.<br />
+                    </div>
+                  </div>
+                  <div class="testimonial_client-details">
+                    <div class="testimonial_client">
+                      <div class="testimonial_client-image-wrapper">
+                        <img
+                          src="images/Rectangle-104_1Rectangle-104.webp"
+                          loading="lazy"
+                          alt="Client headshot"
+                          class="testimonial_client-image"
+                        />
+                      </div>
+                      <div class="testimonial_client-info">
+                        <div class="text-size-regular">Mara Nikolic</div>
+                        <p>Founder,  Mara99</p>
+                      </div>
+                    </div>
+                    <a
+                      href="https://heymara.com/"
+                      target="_blank"
+                      class="testimonial_client-logo-link w-inline-block"
+                      ><img
+                        src="images/2840C62A-D4CB-43F2-9C07-F6DDF99263E3-1_12840C62A-D4CB-43F2-9C07-F6DDF99263E3-1.webp"
+                        loading="lazy"
+                        alt="Client logo"
+                        class="testimonial_client-logo"
+                      /></a
+                    >
+                  </div>
+                </div>
+                <div class="testimonial_content">
+                  <div class="testimonial_rating-wrapper">
+                    <div
+                      bind="8118a1d6-154d-344a-0e4a-c41980a0eceb"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="8118a1d6-154d-344a-0e4a-c41980a0ecec"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="8118a1d6-154d-344a-0e4a-c41980a0eced"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="8118a1d6-154d-344a-0e4a-c41980a0ecee"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="8118a1d6-154d-344a-0e4a-c41980a0ecef"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="margin-vertical margin-medium">
+                    <div class="heading-style-h5">
+                      He will exceed your expectations. Super easy to work with
+                      Joe, incredibly intelligent, and perceptive. He took the
+                      fumbled thoughts from my head and turned it all into a
+                      beautiful creation. I am very impressed, Joe is extremely
+                      talented and attentive. He delivered exactly what I was
+                      looking for based on my very picky taste. I plan on doing
+                      business again in the future.<br />
+                    </div>
+                  </div>
+                  <div class="testimonial_client-details">
+                    <div class="testimonial_client">
+                      <div class="testimonial_client-image-wrapper">
+                        <img
+                          src="images/1612848404581-1_11612848404581-1.webp"
+                          loading="lazy"
+                          alt="Client headshot"
+                          class="testimonial_client-image"
+                        />
+                      </div>
+                      <div class="testimonial_client-info">
+                        <div class="text-size-regular">Danaisa Urgelles</div>
+                        <p>Medical Doctor, BHField</p>
+                      </div>
+                    </div>
+                    <a
+                      href="https://www.bhfield.com/"
+                      target="_blank"
+                      class="testimonial_client-logo-link w-inline-block"
+                      ><img
+                        src="images/bh-logo.svg"
+                        loading="lazy"
+                        alt="Client logo"
+                        class="testimonial_client-logo"
+                      /></a
+                    >
+                  </div>
+                </div>
+                <div class="testimonial_content">
+                  <div class="testimonial_rating-wrapper">
+                    <div
+                      bind="98ae44b2-6d4f-a72b-75ba-e3eb812b6f45"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="98ae44b2-6d4f-a72b-75ba-e3eb812b6f46"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="98ae44b2-6d4f-a72b-75ba-e3eb812b6f47"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="98ae44b2-6d4f-a72b-75ba-e3eb812b6f48"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="98ae44b2-6d4f-a72b-75ba-e3eb812b6f49"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="margin-vertical margin-medium">
+                    <div class="heading-style-h5">
+                      Joe is clearly a very talented designer. The project went
+                      smoothly, and we&#x27;re happy with the outcome!<br />
+                    </div>
+                  </div>
+                  <div class="testimonial_client-details">
+                    <div class="testimonial_client">
+                      <div class="testimonial_client-image-wrapper">
+                        <img
+                          src="images/1650581562449-1_11650581562449-1.webp"
+                          loading="lazy"
+                          alt="Client headshot"
+                          class="testimonial_client-image"
+                        />
+                      </div>
+                      <div class="testimonial_client-info">
+                        <div class="text-size-regular">
+                          <strong>Kam Malik</strong>
+                        </div>
+                        <p>Managing Director, LeadSense</p>
+                      </div>
+                    </div>
+                    <a
+                      href="https://www.leadsense.com/"
+                      target="_blank"
+                      class="testimonial_client-logo-link w-inline-block"
+                      ><img
+                        src="images/Group-359.svg"
+                        loading="lazy"
+                        alt="Client logo"
+                        class="testimonial_client-logo is-bigger"
+                      /></a
+                    >
+                  </div>
+                </div>
+                <div class="testimonial_content">
+                  <div class="testimonial_rating-wrapper">
+                    <div
+                      bind="633a432b-190a-c06d-1a88-02ac7a4cb0e8"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="633a432b-190a-c06d-1a88-02ac7a4cb0e9"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="633a432b-190a-c06d-1a88-02ac7a4cb0ea"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="633a432b-190a-c06d-1a88-02ac7a4cb0eb"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="633a432b-190a-c06d-1a88-02ac7a4cb0ec"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="margin-vertical margin-medium">
+                    <div class="heading-style-h5">
+                      Joe is an amazing designer, delivered on time and
+                      communicated well. I asked for a few revisions after the
+                      initial concept and he got updates back to me just
+                      24-hours later. Fully intend to hire again in the future.<br
+                      />
+                    </div>
+                  </div>
+                  <div class="testimonial_client-details">
+                    <div class="testimonial_client">
+                      <div class="testimonial_client-image-wrapper">
+                        <img
+                          src="images/23245494-d5fd-4296-ac3a-a49c775da77b-1_123245494-d5fd-4296-ac3a-a49c775da77b-1.webp"
+                          loading="lazy"
+                          alt="Client headshot"
+                          class="testimonial_client-image"
+                        />
+                      </div>
+                      <div class="testimonial_client-info">
+                        <div class="text-size-regular">
+                          <strong>Kate Bagoy</strong>
+                        </div>
+                        <p>Principal Product Designer</p>
+                      </div>
+                    </div>
+                    <a
+                      href="https://katebagoy.com/"
+                      target="_blank"
+                      class="testimonial_client-logo-link w-inline-block"
+                      ><img
+                        src="images/kate-bagoy-1_1kate-bagoy-1.webp"
+                        loading="lazy"
+                        alt="Client logo"
+                        class="testimonial_client-logo is-bigger"
+                      /></a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div
+                id="w-node-_457a4acb-ca8c-82be-dbf3-d2b5e21e921d-b19dbc34"
+                class="testimonial_col"
+              >
+                <div class="testimonial_content">
+                  <div class="testimonial_rating-wrapper">
+                    <div
+                      bind="457a4acb-ca8c-82be-dbf3-d2b5e21e9220"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="457a4acb-ca8c-82be-dbf3-d2b5e21e9221"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="457a4acb-ca8c-82be-dbf3-d2b5e21e9222"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="457a4acb-ca8c-82be-dbf3-d2b5e21e9223"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="457a4acb-ca8c-82be-dbf3-d2b5e21e9224"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="margin-vertical margin-medium">
+                    <div class="heading-style-h5">
+                      Amazing designer with an eye for aesthetics. I had pretty
+                      vigorous requests and he hit every single one. He was
+                      patient and highly skilled!<br />
+                    </div>
+                  </div>
+                  <div class="testimonial_client-details">
+                    <div class="testimonial_client">
+                      <div class="testimonial_client-image-wrapper">
+                        <img
+                          src="images/Rectangle-106_1Rectangle-106.webp"
+                          loading="lazy"
+                          alt="Client headshot"
+                          class="testimonial_client-image"
+                        />
+                      </div>
+                      <div class="testimonial_client-info">
+                        <div class="text-size-regular">
+                          <a href="https://twitter.com/johndsaunders"
+                            ><strong>John D Saunders</strong></a
+                          >
+                        </div>
+                        <p>
+                          Co-founder,  <a
+                            href="https://twitter.com/5fourdigital"
+                            >5fourdigital</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                    <a
+                      href="https://www.5fourdigital.com/"
+                      target="_blank"
+                      class="testimonial_client-logo-link w-inline-block"
+                      ><img
+                        src="images/61432af3e1400e82b836b822_Group-67-1.svg"
+                        loading="lazy"
+                        alt="Client logo"
+                        class="testimonial_client-logo"
+                      /></a
+                    >
+                  </div>
+                </div>
+                <div class="testimonial_content">
+                  <div class="testimonial_rating-wrapper">
+                    <div
+                      bind="e6f04c05-e41d-4b44-8e3e-dde89cee666c"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="e6f04c05-e41d-4b44-8e3e-dde89cee666d"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="e6f04c05-e41d-4b44-8e3e-dde89cee666e"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="e6f04c05-e41d-4b44-8e3e-dde89cee666f"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="e6f04c05-e41d-4b44-8e3e-dde89cee6670"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="margin-vertical margin-medium">
+                    <div class="heading-style-h5">
+                      Working with Joe is always smooth and full of empathy. The
+                      project is very high quality, and has been done in a tight
+                      schedule. I recommend working with Joe if you want to get
+                      a fast and pro service.<br />
+                    </div>
+                  </div>
+                  <div class="testimonial_client-details">
+                    <div class="testimonial_client">
+                      <div class="testimonial_client-image-wrapper">
+                        <img
+                          src="images/Rectangle-105_1Rectangle-105.webp"
+                          loading="lazy"
+                          alt="Client headshot"
+                          class="testimonial_client-image"
+                        />
+                      </div>
+                      <div class="testimonial_client-info">
+                        <div class="text-size-regular">
+                          <strong>Vincent Arrouet</strong>
+                        </div>
+                        <p>Co-founder,  Sunology</p>
+                      </div>
+                    </div>
+                    <a
+                      href="https://sunology.eu/"
+                      target="_blank"
+                      class="testimonial_client-logo-link w-inline-block"
+                      ><img
+                        src="images/Group.svg"
+                        loading="lazy"
+                        alt="Company Logo"
+                        class="testimonial_client-logo"
+                      /></a
+                    >
+                  </div>
+                </div>
+                <div class="testimonial_content">
+                  <div class="testimonial_rating-wrapper">
+                    <div
+                      bind="36d319b0-28a7-2dae-b0be-05241945b3ea"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="36d319b0-28a7-2dae-b0be-05241945b3eb"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="36d319b0-28a7-2dae-b0be-05241945b3ec"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="36d319b0-28a7-2dae-b0be-05241945b3ed"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="36d319b0-28a7-2dae-b0be-05241945b3ee"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="margin-vertical margin-medium">
+                    <div class="heading-style-h5">
+                      Excellent Webflow Development Service I recently had the
+                      pleasure of working with Joe on a Webflow development
+                      project, and I must say that I am thoroughly impressed
+                      with the level of service that I received. Really great!
+                      Thanks<br />
+                    </div>
+                  </div>
+                  <div class="testimonial_client-details">
+                    <div class="testimonial_client">
+                      <div class="testimonial_client-image-wrapper">
+                        <img
+                          src="images/82f1be4f-6faf-4b7d-b015-425c661ea7a3_182f1be4f-6faf-4b7d-b015-425c661ea7a3.webp"
+                          loading="lazy"
+                          alt="Client headshot"
+                          class="testimonial_client-image"
+                        />
+                      </div>
+                      <div class="testimonial_client-info">
+                        <div class="text-size-regular">
+                          <a href="https://www.evvvolution.com/team/leon-dapoz"
+                            ><strong>Leon Dapoz</strong></a
+                          >
+                        </div>
+                        <p>Co-Founder,  Evvvolution</p>
+                      </div>
+                    </div>
+                    <a
+                      href="https://www.evvvolution.com/"
+                      target="_blank"
+                      class="testimonial_client-logo-link w-inline-block"
+                      ><img
+                        src="images/62093c2678b45fa4609e15d0_Evvvolution_Logo_Klein_Web-Kopie-p-500_1-p-500.webp"
+                        loading="lazy"
+                        alt="Client logo"
+                        class="testimonial_client-logo"
+                      /></a
+                    >
+                  </div>
+                </div>
+                <div class="testimonial_content">
+                  <div class="testimonial_rating-wrapper">
+                    <div
+                      bind="02645bdf-99ca-189f-4c20-eff971705fbc"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="02645bdf-99ca-189f-4c20-eff971705fbd"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="02645bdf-99ca-189f-4c20-eff971705fbe"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="02645bdf-99ca-189f-4c20-eff971705fbf"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      bind="02645bdf-99ca-189f-4c20-eff971705fc0"
+                      class="testimonial_rating-icon w-embed"
+                    >
+                      <svg
+                        width="100%"
+                        viewbox="0 0 18 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.16379 0.551109C8.47316 -0.183704 9.52684 -0.183703 9.83621 0.551111L11.6621 4.88811C11.7926 5.19789 12.0875 5.40955 12.426 5.43636L17.1654 5.81173C17.9684 5.87533 18.294 6.86532 17.6822 7.38306L14.0713 10.4388C13.8134 10.6571 13.7007 10.9996 13.7795 11.3259L14.8827 15.8949C15.0696 16.669 14.2172 17.2809 13.5297 16.8661L9.47208 14.4176C9.18225 14.2427 8.81775 14.2427 8.52793 14.4176L4.47029 16.8661C3.7828 17.2809 2.93036 16.669 3.11727 15.8949L4.22048 11.3259C4.29928 10.9996 4.18664 10.6571 3.92873 10.4388L0.317756 7.38306C-0.294046 6.86532 0.0315611 5.87533 0.834562 5.81173L5.57402 5.43636C5.91255 5.40955 6.20744 5.19789 6.33786 4.88811L8.16379 0.551109Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="margin-vertical margin-medium">
+                    <div class="heading-style-h5">
+                      Great designer as I love his work. Produced a great design
+                      with little time, tho would love to see what he can do
+                      with a proper heads up on a project.<br />
+                    </div>
+                  </div>
+                  <div class="testimonial_client-details">
+                    <div class="testimonial_client">
+                      <div class="testimonial_client-image-wrapper">
+                        <img
+                          src="images/1b2fee8c-e67f-4cfd-ad9c-352a2c6ae6e4_11b2fee8c-e67f-4cfd-ad9c-352a2c6ae6e4.webp"
+                          loading="lazy"
+                          alt="Client headshot"
+                          class="testimonial_client-image"
+                        />
+                      </div>
+                      <div class="testimonial_client-info">
+                        <div class="text-size-regular">
+                          <strong>Harbik Davidyan</strong>
+                        </div>
+                        <p>Founder,  Webk Agency</p>
+                      </div>
+                    </div>
+                    <a
+                      href="https://webk.com.au/"
+                      target="_blank"
+                      class="testimonial_client-logo-link w-inline-block"
+                      ><img
+                        src="images/webk-sydney-logo-circle-Light-500_1webk-sydney-logo-circle-Light-500.webp"
+                        loading="lazy"
+                        alt="Client logo"
+                        class="testimonial_client-logo is-bigger"
+                      /></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section_experience">
+      <div class="page-padding-3">
+        <div class="container-large-2">
+          <div class="padding-vertical padding-xhuge">
+            <div class="w-layout-grid content6_component">
+              <div class="contact6-1_content">
+                <div class="margin-bottom margin-large contact">
+                  <div class="margin-bottom margin-xsmall">
+                    <h2>
+                      Experience the Difference with a
+                      <span class="text-span">Seasoned Professional</span><br />
+                    </h2>
+                  </div>
+                  <div class="heading-style-h5">
+                    Take the first step towards transforming your online
+                    presence.<br />
+                  </div>
+                </div>
+                <div class="ipad-padding">
+                  <div class="experience_content-left">
+                    <div class="margin-bottom margin-small">
+                      <img
+                        class="experience_profile-image"
+                        src="images/joe-webb-selfie.png"
+                        alt=""
+                        sizes="(max-width: 479px) 100vw, 276.953125px"
+                        loading="lazy"
+                        srcset="
+                              images/joe-webb-selfie-p-500.png 500w,
+                              images/joe-webb-selfie.png       639w
+                            "
+                      /><img
+                        src="images/Badge_Professional_Partner_White2x.png"
+                        loading="lazy"
+                        sizes="224px"
+                        srcset="
+                              images/Badge_Professional_Partner_White2x-p-500.png   500w,
+                              images/Badge_Professional_Partner_White2x-p-800.png   800w,
+                              images/Badge_Professional_Partner_White2x-p-1080.png 1080w,
+                              images/Badge_Professional_Partner_White2x.png        1800w
+                            "
+                        alt=""
+                        class="experience_profile-partner"
+                      />
+                    </div>
+                    <div class="margin-bottom margin-xsmall">
+                      <h2 class="experience_profile-name">Joe Webb</h2>
+                    </div>
+                    <div class="button-group">
+                      <div class="experience_available-button">
+                        <div class="button_circle is-fill">
+                          <div class="button_glow"></div>
+                        </div>
+                        <div class="button_text-small">Available for Hire</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="contact6-1_form-wrapper w-form">
+                <form
+                  id="wf-form-Email-Form"
+                  name="wf-form-Email-Form"
+                  data-name="Email Form"
+                  action="/#"
+                  method="post"
+                  data-netlify="true"
+                  class="contact6-1_form"
+                  data-wf-page-id="65bc915f77fb73aab19dbc34"
+                  data-wf-element-id="15335d8a-3407-5ea9-5b9e-e03aafa6ba50"
+                >
+                  <div class="form-field-2col">
+                    <div class="form-field-wrapper">
+                      <label for="Contact-2-First-Name" class="field-label"
+                        >First name</label
+                      ><input
+                        class="form-input w-input"
+                        maxlength="256"
+                        name="Contact-2-First-Name-3"
+                        data-name="Contact 2 First Name 3"
+                        placeholder="First name"
+                        type="text"
+                        id="Contact-2-First-Name-3"
+                        required=""
+                      />
+                    </div>
+                    <div class="form-field-wrapper">
+                      <label for="Company" class="field-label"
+                        >Company name</label
+                      ><input
+                        class="form-input w-input"
+                        maxlength="256"
+                        name="Company"
+                        data-name="Company"
+                        placeholder="Company"
+                        type="text"
+                        id="Company"
+                        required=""
+                      />
+                    </div>
+                  </div>
+                  <div class="form-field-2col">
+                    <div class="form-field-wrapper">
+                      <label for="Contact-2-Email" class="field-label"
+                        >Email</label
+                      ><input
+                        class="form-input w-input"
+                        maxlength="256"
+                        name="Contact-2-Email-2"
+                        data-name="Contact 2 Email 2"
+                        placeholder="your@company.com"
+                        type="email"
+                        id="Contact-2-Email-2"
+                        required=""
+                      />
+                    </div>
+                    <div class="form-field-wrapper">
+                      <label for="URL" class="field-label">Website URL</label
+                      ><input
+                        class="form-input w-input"
+                        maxlength="256"
+                        name="URL"
+                        data-name="URL"
+                        placeholder="https://"
+                        type="text"
+                        id="URL"
+                        required=""
+                      />
+                    </div>
+                  </div>
+                  <div class="form-field-wrapper">
+                    <label for="Estimated-Budget" class="field-label"
+                      >Estimated Budget -
+                      <span class="grey-span">*min required $3500</span></label
+                    ><input
+                      class="form-input w-input"
+                      maxlength="256"
+                      name="Estimated-Budget"
+                      data-name="Estimated Budget"
+                      placeholder="Example: $8500"
+                      type="text"
+                      id="Estimated-Budget"
+                      required=""
+                    />
+                  </div>
+                  <div class="padding-vertical padding-xxsmall">
+                    <div class="form-field-wrapper">
+                      <div class="margin-bottom margin-xsmall">
+                        <label for="Contact-2-Select" class="field-label mb-2"
+                          >Which best describes your needs?</label
+                        >
+                      </div>
+                      <div class="w-layout-grid form-radio-2col">
+                        <label class="form-radio w-radio">
+                          <div
+                            class="w-form-formradioinput w-form-formradioinput--inputType-custom form-radio-icon tick-icon w-radio-input"
+                          ></div>
+                          <input
+                            id="Facebook-Instagram-ads"
+                            type="radio"
+                            name="Facebook-Instagram-ads"
+                            data-name="Facebook Instagram Ads"
+                            style="
+                                  opacity: 0;
+                                  position: absolute;
+                                  z-index: -1;
+                                "
+                            value="Facebook/Instagram ads"
+                          /><span
+                            for="Facebook-Instagram-ads"
+                            class="form-radio-label w-form-label"
+                            >Website Design and Development</span
+                          >
+                        </label><label class="form-radio w-radio">
+                          <div
+                            class="w-form-formradioinput w-form-formradioinput--inputType-custom form-radio-icon w-radio-input"
+                          ></div>
+                          <input
+                            id="Full-Service-ads"
+                            type="radio"
+                            name="Full-Service-ads"
+                            data-name="Full Service Ads"
+                            style="
+                                  opacity: 0;
+                                  position: absolute;
+                                  z-index: -1;
+                                "
+                            value="Full-Service ads"
+                          /><span
+                            for="Full-Service-ads"
+                            class="form-radio-label w-form-label"
+                            >HighLevel Marketing Automation</span
+                          >
+                        </label><label class="form-radio w-radio">
+                          <div
+                            class="w-form-formradioinput w-form-formradioinput--inputType-custom form-radio-icon w-radio-input"
+                          ></div>
+                          <input
+                            id="Google-ads"
+                            type="radio"
+                            name="Google-ads"
+                            data-name="Google Ads"
+                            style="
+                                  opacity: 0;
+                                  position: absolute;
+                                  z-index: -1;
+                                "
+                            value="Google ads"
+                          /><span
+                            for="Google-ads"
+                            class="form-radio-label w-form-label"
+                            >SEO &amp; Content Strategy</span
+                          >
+                        </label><label class="form-radio w-radio">
+                          <div
+                            class="w-form-formradioinput w-form-formradioinput--inputType-custom form-radio-icon w-radio-input"
+                          ></div>
+                          <input
+                            id="Custom-Development"
+                            type="radio"
+                            name="Custom-Development"
+                            data-name="Custom Development"
+                            style="
+                                  opacity: 0;
+                                  position: absolute;
+                                  z-index: -1;
+                                "
+                            value="Custom Development"
+                          /><span
+                            for="Custom-Development"
+                            class="form-radio-label w-form-label"
+                            >Custom Integration Solutions</span
+                          >
+                        </label><label class="form-radio w-radio">
+                          <div
+                            class="w-form-formradioinput w-form-formradioinput--inputType-custom form-radio-icon w-radio-input"
+                          ></div>
+                          <input
+                            id="TikTok-Bytedance-ads"
+                            type="radio"
+                            name="TikTok-Bytedance-ads"
+                            data-name="Tik Tok Bytedance Ads"
+                            style="
+                                  opacity: 0;
+                                  position: absolute;
+                                  z-index: -1;
+                                "
+                            value="TikTok/Bytedance ads"
+                          /><span
+                            for="TikTok-Bytedance-ads"
+                            class="form-radio-label w-form-label"
+                            >E-commerce Solutions</span
+                          >
+                        </label><label class="form-radio w-radio">
+                          <div
+                            class="w-form-formradioinput w-form-formradioinput--inputType-custom form-radio-icon w-radio-input"
+                          ></div>
+                          <input
+                            id="AOV-Optimization"
+                            type="radio"
+                            name="AOV-Optimization"
+                            data-name="AOV Optimization"
+                            style="
+                                  opacity: 0;
+                                  position: absolute;
+                                  z-index: -1;
+                                "
+                            value="AOV Optimization"
+                          /><span
+                            for="AOV-Optimization"
+                            class="form-radio-label w-form-label"
+                            >Social Media &amp; Digital Advertising</span
+                          >
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-field-wrapper">
+                    <label for="Contact-2-Message" class="field-label"
+                      >Tell us about your business &amp; your goals</label
+                    ><textarea
+                      id="Contact-2-Message-2"
+                      name="Contact-2-Message-2"
+                      maxlength="5000"
+                      data-name="Contact 2 Message 2"
+                      placeholder="Type your message..."
+                      required=""
+                      class="form-input text-area w-input"
+                    ></textarea>
+                  </div>
+                  <input
+                    type="submit"
+                    data-wait="Please wait..."
+                    id="w-node-_15335d8a-3407-5ea9-5b9e-e03aafa6ba8d-b19dbc34"
+                    class="button max-width-full w-button"
+                    value="Submit Request"
+                  />
+                </form>
+                <div class="success-message w-form-done">
+                  <div class="success-text">
+                    Thank you! Your submission has been received!
+                  </div>
+                </div>
+                <div class="error-message w-form-fail">
+                  <div class="error-text">
+                    Oops! Something went wrong while submitting the form.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section_cta">
+      <div class="padding-global">
+        <div class="container-large">
+          <div class="padding-section-large">
+            <div class="cta_wrapper">
+              <div
+                id="w-node-_6a4bf255-96da-1a0d-d04f-c8d2b80e9d90-b19dbc34"
+                class="cta_image-wrapper"
+              >
+                <img
+                  src="images/62d0e2ae81fb9e49432d0284_62736cc4162e557f6f79f7d0_Webflow_Logo.svg"
+                  loading="lazy"
+                  alt=""
+                  class="cta_image"
+                /><img
+                  src="images/62d0e2aeb4e06c8b6b8249a4_62736cc4162e55368179f7d1_f2w__pfeil.svg"
+                  loading="lazy"
+                  alt=""
+                  class="cta_image-arrow"
+                /><img
+                  src="images/ghl-icon.jpeg"
+                  loading="lazy"
+                  sizes="56px"
+                  srcset="
+                        images/ghl-icon-p-500.jpeg 500w,
+                        images/ghl-icon.jpeg       512w
+                      "
+                  alt=""
+                  class="cta_image ghl-icon"
+                />
+              </div>
+              <h4 class="text-align-center">
+                Already have a project in mind? Let&#x27;s Chat about it.
+              </h4>
+              <div
+                id="w-node-f770db37-2bae-dea1-eb97-bb553ad981f9-b19dbc34"
+                class="button-group"
+              >
+                <a
+                  href="/landing"
+                  class="button is-icon is-alternate w-inline-block"
+                >
+                  <div class="button_text-regular">Let’s Talk</div>
+                  <div
+                    bind="278dfd81-468a-85f5-180d-82556cd44d01"
+                    class="icon-1x1-small w-embed"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="100%"
+                      height="100%"
+                      viewbox="0 0 17 17"
+                      fill="none"
+                      preserveaspectratio="xMidYMid meet"
+                      aria-hidden="true"
+                      role="img"
+                    >
+                      <g clip-path="url(#clip0_614_964)">
+                        <path
+                          d="M3 8.5L14 8.5"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                        <path
+                          d="M9.5 13L14 8.5L9.5 4"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </g>
+                      <defs>
+                        <clippath id="clip0_614_964">
+                          <rect
+                            width="16"
+                            height="16"
+                            fill="currentColor"
+                            transform="translate(0.5 16.5) rotate(-90)"
+                          ></rect>
+                        </clippath>
+                      </defs>
+                    </svg>
+                  </div>
+                </a>
+              </div>
+              <div class="cta_background-image-wrapper">
+                <div class="image-overlay-layer-linear"></div>
+                <img
+                  class="cta_background-noise"
+                  src="images/noise_1noise.webp"
+                  alt=""
+                  sizes="(max-width: 479px) 100vw, (max-width: 767px) 94vw, (max-width: 991px) 92vw, 94vw"
+                  loading="lazy"
+                  srcset="
+                        images/noise_1-p-500.png 500w,
+                        images/noise_1-p-800.png 800w,
+                        images/noise_1noise.webp 838w
+                      "
+                /><img
+                  src="images/background.svg"
+                  loading="lazy"
+                  alt=""
+                  class="cta_background-image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer class="footer_component">
+    <div class="padding-global">
+      <div class="container-large">
+        <div class="padding-top padding-section-large">
+          <div class="padding-vertical padding-medium">
+            <div class="footer_bottom-wrapper">
+              <p class="footer_credit-text">Copyright 2024 Webb Designs</p>
+              <div
+                id="w-node-bf84dad4-8453-7a3c-1f67-d164fe8aded3-b19dbc34"
+                class="footer_payment-link-wrapper"
+              >
+                <a
+                  href="#"
+                  target="_blank"
+                  class="footer_payment-link w-inline-block"
+                >
+                  <div
+                    bind="bdcb78fc-eb5e-5fec-4dd6-5a9785d0674b"
+                    class="footer_payment-link-icon is-stripe w-embed"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="100%"
+                      height="100%"
+                      viewbox="0 0 360 150"
+                      fill="none"
+                      preserveaspectratio="xMidYMid meet"
+                      aria-hidden="true"
+                      role="img"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M360 77.4001C360 51.8001 347.6 31.6001 323.9 31.6001C300.1 31.6001 285.7 51.8001 285.7 77.2001C285.7 107.3 302.7 122.5 327.1 122.5C339 122.5 348 119.8 354.8 116V96.0001C348 99.4001 340.2 101.5 330.3 101.5C320.6 101.5 312 98.1001 310.9 86.3001H359.8C359.8 85.0001 360 79.8001 360 77.4001ZM310.6 67.9001C310.6 56.6001 317.5 51.9001 323.8 51.9001C329.9 51.9001 336.4 56.6001 336.4 67.9001H310.6Z"
+                        fill="currentColor"
+                      ></path>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M247.1 31.6001C237.3 31.6001 231 36.2001 227.5 39.4001L226.2 33.2001H204.2V149.8L229.2 144.5L229.3 116.2C232.9 118.8 238.2 122.5 247 122.5C264.9 122.5 281.2 108.1 281.2 76.4001C281.1 47.4001 264.6 31.6001 247.1 31.6001ZM241.1 100.5C235.2 100.5 231.7 98.4001 229.3 95.8001L229.2 58.7001C231.8 55.8001 235.4 53.8001 241.1 53.8001C250.2 53.8001 256.5 64.0001 256.5 77.1001C256.5 90.5001 250.3 100.5 241.1 100.5Z"
+                        fill="currentColor"
+                      ></path>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M169.8 25.7L194.9 20.3V0L169.8 5.3V25.7Z"
+                        fill="currentColor"
+                      ></path>
+                      <path
+                        d="M194.9 33.2998H169.8V120.8H194.9V33.2998Z"
+                        fill="currentColor"
+                      ></path>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M142.9 40.6998L141.3 33.2998H119.7V120.8H144.7V61.4998C150.6 53.7998 160.6 55.1998 163.7 56.2998V33.2998C160.5 32.0998 148.8 29.8998 142.9 40.6998Z"
+                        fill="currentColor"
+                      ></path>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M92.8999 11.6001L68.4999 16.8001L68.3999 96.9001C68.3999 111.7 79.4999 122.6 94.2999 122.6C102.5 122.6 108.5 121.1 111.8 119.3V99.0001C108.6 100.3 92.7999 104.9 92.7999 90.1001V54.6001H111.8V33.3001H92.7999L92.8999 11.6001Z"
+                        fill="currentColor"
+                      ></path>
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M25.3 58.7001C25.3 54.8001 28.5 53.3001 33.8 53.3001C41.4 53.3001 51 55.6001 58.6 59.7001V36.2001C50.3 32.9001 42.1 31.6001 33.8 31.6001C13.5 31.6001 0 42.2001 0 59.9001C0 87.5001 38 83.1001 38 95.0001C38 99.6001 34 101.1 28.4 101.1C20.1 101.1 9.5 97.7001 1.1 93.1001V116.9C10.4 120.9 19.8 122.6 28.4 122.6C49.2 122.6 63.5 112.3 63.5 94.4001C63.4 64.6001 25.3 69.9001 25.3 58.7001Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div>Pay</div>
+                </a>
+              </div>
+              <div class="w-layout-grid footer_social-list">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="footer_social-link w-inline-block"
+                >
+                  <div
+                    bind="9e274f2e-c6c5-df34-9f10-868f88b57240"
+                    class="footer_social-image w-embed"
+                  >
+                    <svg
+                      width="100%"
+                      height="100%"
+                      viewbox="0 0 23 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_66_11)">
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M22.826 0.896423L15.5425 15.1348H8.70121L11.7494 9.23382H11.6126C9.09793 12.4982 5.34597 14.6472 0 15.1348V9.31552C0 9.31552 3.41994 9.11352 5.43043 6.99976H0V0.896536H6.10322V5.91634L6.2402 5.91578L8.7342 0.896536H13.3499V5.88452L13.4869 5.8843L16.0744 0.896423H22.826Z"
+                          fill="currentColor"
+                        ></path>
+                      </g>
+                      <defs>
+                        <clippath id="clip0_66_11">
+                          <rect width="22.8571" height="16" fill="white"></rect>
+                        </clippath>
+                      </defs>
+                    </svg>
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                  class="footer_social-link w-inline-block"
+                  ><img
+                    src="images/twitter-d.svg"
+                    loading="lazy"
+                    alt="Twitter"
+                    class="footer_social-image"
+                  /></a
+                >
+                <a
+                  href="#"
+                  target="_blank"
+                  class="footer_social-link w-inline-block"
+                  ><img
+                    src="images/linkedin-3-1.svg"
+                    loading="lazy"
+                    alt="Linkedin"
+                    class="footer_social-image"
+                  /></a
+                >
+                <a
+                  href="#"
+                  target="_blank"
+                  class="footer_social-link w-inline-block"
+                  ><img
+                    src="images/instagram-3-1.svg"
+                    loading="lazy"
+                    alt="Instagram"
+                    class="footer_social-image"
+                  /></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<style>
+  /* Make text look crisper and more legible in all browsers */
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  /* Focus state style for keyboard navigation for the focusable elements */
+  *[tabindex]:focus-visible,
+  input[type="file"]:focus-visible {
+    outline: 0.125rem solid #4d65ff;
+    outline-offset: 0.125rem;
+  }
+  /* Get rid of top margin on first element in any rich text element */
+  .w-richtext > :not(div):first-child,
+  .w-richtext > div:first-child > :first-child {
+    margin-top: 0 !important;
+  }
+  /* Get rid of bottom margin on last element in any rich text element */
+  .w-richtext > :last-child,
+  .w-richtext ol li:last-child,
+  .w-richtext ul li:last-child {
+    margin-bottom: 0 !important;
+  }
+  /* Prevent all click and hover interaction with an element */
+  .pointer-events-off {
+    pointer-events: none;
+  }
+  /* Enables all click and hover interaction with an element */
+  .pointer-events-on {
+    pointer-events: auto;
+  }
+  /* Create a class of .div-square which maintains a 1:1 dimension of a div */
+  .div-square::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+  /* Make sure containers never lose their center alignment */
+  .container-medium,
+  .container-small,
+  .container-large {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  /* 
+Make the following elements inherit typography styles from the parent and not have hardcoded values. 
+Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
+Uncomment this CSS to use it in the project. Leave this message for future hand-off.
+*/
+  /*
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+*/
+  /* Apply "..." after 3 lines of text */
+  .text-style-3lines {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  /* Apply "..." after 2 lines of text */
+  .text-style-2lines {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  /* Adds inline flex display */
+  .display-inlineflex {
+    display: inline-flex;
+  }
+  /* These classes are never overwritten */
+  .hide {
+    display: none !important;
+  }
+  @media screen and (max-width: 991px) {
+    .hide,
+    .hide-tablet {
+      display: none !important;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .hide-mobile-landscape {
+      display: none !important;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    .hide-mobile {
+      display: none !important;
+    }
+  }
+  .margin-0 {
+    margin: 0rem !important;
+  }
+  .padding-0 {
+    padding: 0rem !important;
+  }
+  .spacing-clean {
+    padding: 0rem !important;
+    margin: 0rem !important;
+  }
+  .margin-top {
+    margin-right: 0rem !important;
+    margin-bottom: 0rem !important;
+    margin-left: 0rem !important;
+  }
+  .padding-top {
+    padding-right: 0rem !important;
+    padding-bottom: 0rem !important;
+    padding-left: 0rem !important;
+  }
+  .margin-right {
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+    margin-left: 0rem !important;
+  }
+  .padding-right {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    padding-left: 0rem !important;
+  }
+  .margin-bottom {
+    margin-top: 0rem !important;
+    margin-right: 0rem !important;
+    margin-left: 0rem !important;
+  }
+  .padding-bottom {
+    padding-top: 0rem !important;
+    padding-right: 0rem !important;
+    padding-left: 0rem !important;
+  }
+  .margin-left {
+    margin-top: 0rem !important;
+    margin-right: 0rem !important;
+    margin-bottom: 0rem !important;
+  }
+  .padding-left {
+    padding-top: 0rem !important;
+    padding-right: 0rem !important;
+    padding-bottom: 0rem !important;
+  }
+  .margin-horizontal {
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+  }
+  .padding-horizontal {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+  }
+  .margin-vertical {
+    margin-right: 0rem !important;
+    margin-left: 0rem !important;
+  }
+  .padding-vertical {
+    padding-right: 0rem !important;
+    padding-left: 0rem !important;
+  }
+  /*width*/
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  /*track*/
+  ::-webkit-scrollbar-track {
+    background: rgb(13, 13, 13);
+    border-color: rgb(13, 13, 13);
+  }
+  /*thumb*/
+  ::-webkit-scrollbar-thumb {
+    background: rgb(98, 98, 98);
+    border-radius: 20rem;
+  }
+  /*thumb hover*/
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(126, 126, 126, 1);
+  }
+  /*thumb pressed*/
+  ::-webkit-scrollbar-thumb:active {
+    background: rgba(111, 111, 111, 1);
+  }
+  a {
+    color: inherit;
+  }
+  .navbar2_logo {
+    background-blend-mode: screen;
+  }
+  .section_logo {
+    overflow-x: hidden;
+  }
+  .image-overlay-layer {
+    background-image: radial-gradient(50% 50%, rgba(13, 13, 13, 0), #0d0d0d);
+  }
+</style>
